@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { useLocation, useSearchParams } from 'react-router-dom';
@@ -175,6 +175,7 @@ export default function SearchPage() {
   });
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
+  const lastSearchKeyRef = useRef<string | null>(null);
 
   const [inputValue, setInputValue] = useState(() =>
     normalizeQueryValue(searchParams.get('q'))
@@ -207,20 +208,35 @@ export default function SearchPage() {
   });
 
   const normalizedQuery = useMemo(() => normalizeQueryValue(inputValue), [inputValue]);
+  const brandsParam = searchParams.get('brands') || '';
+  const categoriesParam = searchParams.get('categories') || '';
+  const availableParam = searchParams.get('available') || '';
 
   const selectedBrandIds = useMemo(
-    () => uniqueStrings(parseCsvParam(searchParams.get('brands'))),
-    [searchParams]
+    () => uniqueStrings(parseCsvParam(brandsParam)),
+    [brandsParam]
   );
 
   const selectedCategoryIds = useMemo(
-    () => uniqueStrings(parseCsvParam(searchParams.get('categories'))),
-    [searchParams]
+    () => uniqueStrings(parseCsvParam(categoriesParam)),
+    [categoriesParam]
   );
 
   const onlyAvailable = useMemo(
-    () => searchParams.get('available') === '1',
-    [searchParams]
+    () => availableParam === '1',
+    [availableParam]
+  );
+  const searchSort = useMemo(() => mapCatalogSortToSearchSort(sortMode), [sortMode]);
+  const searchRequestKey = useMemo(
+    () =>
+      JSON.stringify({
+        query: normalizedQuery,
+        sort: searchSort,
+        brandIds: selectedBrandIds,
+        categoryIds: selectedCategoryIds,
+        onlyAvailable,
+      }),
+    [normalizedQuery, searchSort, selectedBrandIds, selectedCategoryIds, onlyAvailable]
   );
 
   const searchPageFrom = useMemo(() => {
@@ -281,6 +297,7 @@ export default function SearchPage() {
 
     const runSearch = async () => {
       if (normalizedQuery.length < 2) {
+        lastSearchKeyRef.current = null;
         if (!cancelled) {
           setProducts([]);
           setFacets({
@@ -294,12 +311,15 @@ export default function SearchPage() {
       }
 
       try {
+        if (lastSearchKeyRef.current === searchRequestKey) return;
+        lastSearchKeyRef.current = searchRequestKey;
+
         if (!cancelled) setIsLoading(true);
 
         const result = await searchProducts({
           query: normalizedQuery,
           limit: 48,
-          sort: mapCatalogSortToSearchSort(sortMode),
+          sort: searchSort,
           brandIds: selectedBrandIds,
           categoryIds: selectedCategoryIds,
           onlyAvailable,
@@ -317,6 +337,7 @@ export default function SearchPage() {
         setFacets(result.facets);
       } catch (error) {
         if (cancelled) return;
+        lastSearchKeyRef.current = null;
         console.error('Search error:', error);
         setProducts([]);
         setFacets({
@@ -336,8 +357,10 @@ export default function SearchPage() {
       window.clearTimeout(timer);
     };
   }, [
+    searchRequestKey,
     normalizedQuery,
     sortMode,
+    searchSort,
     selectedBrandIds,
     selectedCategoryIds,
     onlyAvailable,
