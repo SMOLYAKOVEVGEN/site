@@ -41,3 +41,11 @@ docs/*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.claude/
+.emdash/
+.playwright-mcp/
+supabase/.temp/
+src.zip
+.venv/
+dist/
+node_modules/
