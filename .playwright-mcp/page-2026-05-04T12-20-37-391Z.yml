@@ -1,0 +1,477 @@
+- generic [active] [ref=e1]:
+  - link "Перейти к содержимому" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e28]:
+    - banner [ref=e29]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - link "+7 (812) 640-39-96" [ref=e33] [cursor=pointer]:
+            - /url: tel:+78126403996
+            - img [ref=e34]
+            - generic [ref=e36]: +7 (812) 640-39-96
+          - link "info@cnc.su" [ref=e37] [cursor=pointer]:
+            - /url: mailto:info@cnc.su
+            - img [ref=e38]
+            - generic [ref=e41]: info@cnc.su
+        - generic [ref=e42]: г. Санкт-Петербург, ул. Заусадебная, д. 15, стр. 5
+      - generic [ref=e44]:
+        - link "АВТОграф Инструментальные Решения" [ref=e45] [cursor=pointer]:
+          - /url: /
+          - img "АВТОграф Инструментальные Решения" [ref=e46]
+        - navigation [ref=e47]:
+          - link "Каталог" [ref=e48] [cursor=pointer]:
+            - /url: /catalog
+            - img [ref=e50]
+            - generic [ref=e55]: Каталог
+          - link "Услуги" [ref=e56] [cursor=pointer]:
+            - /url: /services
+            - img [ref=e58]
+            - generic [ref=e60]: Услуги
+          - link "Решения" [ref=e61] [cursor=pointer]:
+            - /url: /solutions
+            - img [ref=e63]
+            - generic [ref=e65]: Решения
+          - link "Поставщики" [ref=e66] [cursor=pointer]:
+            - /url: /brands
+            - img [ref=e68]
+            - generic [ref=e71]: Поставщики
+          - link "Партнеры" [ref=e72] [cursor=pointer]:
+            - /url: /partners
+            - img [ref=e74]
+            - generic [ref=e79]: Партнеры
+          - link "Блог" [ref=e80] [cursor=pointer]:
+            - /url: /blog
+            - img [ref=e82]
+            - generic [ref=e85]: Блог
+          - link "О компании" [ref=e86] [cursor=pointer]:
+            - /url: /about
+            - img [ref=e88]
+            - generic [ref=e92]: О компании
+          - link "Контакты" [ref=e93] [cursor=pointer]:
+            - /url: /contacts
+            - img [ref=e95]
+            - generic [ref=e98]: Контакты
+        - generic [ref=e99]:
+          - link "Поиск по сайту" [ref=e100] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e103]
+            - generic [ref=e106]: Поиск по сайту
+          - link "Сравнение" [ref=e107] [cursor=pointer]:
+            - /url: /compare
+            - img [ref=e110]
+            - generic [ref=e112]: Сравнение
+          - link "Избранное" [ref=e113] [cursor=pointer]:
+            - /url: /favorites
+            - img [ref=e116]
+            - generic [ref=e118]: Избранное
+          - link "Корзина" [ref=e119] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e122]
+            - generic [ref=e126]: Корзина
+          - link "Войти" [ref=e128] [cursor=pointer]:
+            - /url: /account-login
+            - img [ref=e130]
+            - generic [ref=e133]: Войти
+    - main [ref=e134]:
+      - generic [ref=e135]:
+        - img [ref=e137]
+        - heading "Каталог продукции" [level=1] [ref=e142]
+      - generic [ref=e145]:
+        - link "Фрезерная обработка Инструмент и оснастка для высокоточной фрезерной обработки металлов. Перейти в раздел" [ref=e147] [cursor=pointer]:
+          - /url: /catalog/frezernaya-obrabotka
+          - img [ref=e149]
+          - generic [ref=e150]:
+            - heading "Фрезерная обработка" [level=3] [ref=e151]
+            - paragraph [ref=e152]: Инструмент и оснастка для высокоточной фрезерной обработки металлов.
+            - generic [ref=e153]:
+              - text: Перейти в раздел
+              - img [ref=e154]
+        - link "Токарная обработка Резцы, пластины и оснастка для токарных операций любой сложности. Перейти в раздел" [ref=e157] [cursor=pointer]:
+          - /url: /catalog/tokarnaya-obrabotka
+          - img [ref=e159]
+          - generic [ref=e160]:
+            - heading "Токарная обработка" [level=3] [ref=e161]
+            - paragraph [ref=e162]: Резцы, пластины и оснастка для токарных операций любой сложности.
+            - generic [ref=e163]:
+              - text: Перейти в раздел
+              - img [ref=e164]
+        - link "Металлообрабатывающие станки Станки для комплексной обработки деталей из металла. Перейти в раздел" [ref=e167] [cursor=pointer]:
+          - /url: /catalog/metalloobrabatyvayushchie-stanki
+          - img [ref=e169]
+          - generic [ref=e170]:
+            - heading "Металлообрабатывающие станки" [level=3] [ref=e171]
+            - paragraph [ref=e172]: Станки для комплексной обработки деталей из металла.
+            - generic [ref=e173]:
+              - text: Перейти в раздел
+              - img [ref=e174]
+        - link "Смазочно-охлаждающие жидкости (СОЖ) СОЖ для охлаждения и смазки режущего инструмента. Перейти в раздел" [ref=e177] [cursor=pointer]:
+          - /url: /catalog/smazochno-okhlazhdayushchie-zhidkosti-sozh
+          - img [ref=e179]
+          - generic [ref=e180]:
+            - heading "Смазочно-охлаждающие жидкости (СОЖ)" [level=3] [ref=e181]
+            - paragraph [ref=e182]: СОЖ для охлаждения и смазки режущего инструмента.
+            - generic [ref=e183]:
+              - text: Перейти в раздел
+              - img [ref=e184]
+        - link "Трубки для СОЖ Гибкие трубки для точной подачи охлаждающей жидкости. Перейти в раздел" [ref=e187] [cursor=pointer]:
+          - /url: /catalog/trubki-dlya-sozh
+          - img [ref=e189]
+          - generic [ref=e190]:
+            - heading "Трубки для СОЖ" [level=3] [ref=e191]
+            - paragraph [ref=e192]: Гибкие трубки для точной подачи охлаждающей жидкости.
+            - generic [ref=e193]:
+              - text: Перейти в раздел
+              - img [ref=e194]
+        - link "Фиксаторы соединений Фиксирующие составы и смазки для надёжных соединений. Перейти в раздел" [ref=e197] [cursor=pointer]:
+          - /url: /catalog/fiksatory-soedineniy-i-smazki
+          - img [ref=e199]
+          - generic [ref=e200]:
+            - heading "Фиксаторы соединений" [level=3] [ref=e201]
+            - paragraph [ref=e202]: Фиксирующие составы и смазки для надёжных соединений.
+            - generic [ref=e203]:
+              - text: Перейти в раздел
+              - img [ref=e204]
+        - link "Масла Масла для металлообработки и технического обслуживания оборудования. Перейти в раздел" [ref=e207] [cursor=pointer]:
+          - /url: /catalog/masla
+          - img [ref=e209]
+          - generic [ref=e210]:
+            - heading "Масла" [level=3] [ref=e211]
+            - paragraph [ref=e212]: Масла для металлообработки и технического обслуживания оборудования.
+            - generic [ref=e213]:
+              - text: Перейти в раздел
+              - img [ref=e214]
+        - link "Станочная оснастка Патроны, тиски и зажимные приспособления для станков. Перейти в раздел" [ref=e217] [cursor=pointer]:
+          - /url: /catalog/stanochnaya-osnastka
+          - img [ref=e219]
+          - generic [ref=e220]:
+            - heading "Станочная оснастка" [level=3] [ref=e221]
+            - paragraph [ref=e222]: Патроны, тиски и зажимные приспособления для станков.
+            - generic [ref=e223]:
+              - text: Перейти в раздел
+              - img [ref=e224]
+        - link "Резьбонарезной инструмент Метчики, плашки и инструмент для нарезания резьбы. Перейти в раздел" [ref=e227] [cursor=pointer]:
+          - /url: /catalog/rezbonareznoy-instrument
+          - img [ref=e229]
+          - generic [ref=e230]:
+            - heading "Резьбонарезной инструмент" [level=3] [ref=e231]
+            - paragraph [ref=e232]: Метчики, плашки и инструмент для нарезания резьбы.
+            - generic [ref=e233]:
+              - text: Перейти в раздел
+              - img [ref=e234]
+        - link "Измерительный инструмент Штангенциркули, микрометры и контрольно-измерительный инструмент. Перейти в раздел" [ref=e237] [cursor=pointer]:
+          - /url: /catalog/izmeritelnyy-instrument
+          - img [ref=e239]
+          - generic [ref=e240]:
+            - heading "Измерительный инструмент" [level=3] [ref=e241]
+            - paragraph [ref=e242]: Штангенциркули, микрометры и контрольно-измерительный инструмент.
+            - generic [ref=e243]:
+              - text: Перейти в раздел
+              - img [ref=e244]
+        - link "Абразивные материалы Шлифовальные круги, ленты и абразивный инструмент. Перейти в раздел" [ref=e247] [cursor=pointer]:
+          - /url: /catalog/abrazivnye-materialy
+          - img [ref=e249]
+          - generic [ref=e250]:
+            - heading "Абразивные материалы" [level=3] [ref=e251]
+            - paragraph [ref=e252]: Шлифовальные круги, ленты и абразивный инструмент.
+            - generic [ref=e253]:
+              - text: Перейти в раздел
+              - img [ref=e254]
+        - link "Слесарно-монтажный инструмент Слесарный и монтажный инструмент для производства. Перейти в раздел" [ref=e257] [cursor=pointer]:
+          - /url: /catalog/slesarno-montazhnyy-instrument
+          - img [ref=e259]
+          - generic [ref=e260]:
+            - heading "Слесарно-монтажный инструмент" [level=3] [ref=e261]
+            - paragraph [ref=e262]: Слесарный и монтажный инструмент для производства.
+            - generic [ref=e263]:
+              - text: Перейти в раздел
+              - img [ref=e264]
+        - link "Строительные решения Перейти в раздел" [ref=e267] [cursor=pointer]:
+          - /url: /catalog/stroitelnye-resheniya
+          - img [ref=e269]
+          - generic [ref=e270]:
+            - heading "Строительные решения" [level=3] [ref=e271]
+            - generic [ref=e272]:
+              - text: Перейти в раздел
+              - img [ref=e273]
+        - link "Системы подготовки сжатого воздуха Перейти в раздел" [ref=e276] [cursor=pointer]:
+          - /url: /catalog/sistemy-podgotovki-szhatogo-vozdukha
+          - img [ref=e278]
+          - generic [ref=e279]:
+            - heading "Системы подготовки сжатого воздуха" [level=3] [ref=e280]
+            - generic [ref=e281]:
+              - text: Перейти в раздел
+              - img [ref=e282]
+        - link "Электроинструмент Профессиональный электроинструмент для мастерской. Перейти в раздел" [ref=e285] [cursor=pointer]:
+          - /url: /catalog/elektroinstrument
+          - img [ref=e287]
+          - generic [ref=e288]:
+            - heading "Электроинструмент" [level=3] [ref=e289]
+            - paragraph [ref=e290]: Профессиональный электроинструмент для мастерской.
+            - generic [ref=e291]:
+              - text: Перейти в раздел
+              - img [ref=e292]
+        - link "Инструмент и оснастка AKKO Перейти в раздел" [ref=e295] [cursor=pointer]:
+          - /url: /catalog/akko
+          - img [ref=e297]
+          - generic [ref=e298]:
+            - heading "Инструмент и оснастка AKKO" [level=3] [ref=e299]
+            - generic [ref=e300]:
+              - text: Перейти в раздел
+              - img [ref=e301]
+        - link "Инструмент и оснастка Kemmler Перейти в раздел" [ref=e304] [cursor=pointer]:
+          - /url: /catalog/kemmler
+          - img [ref=e306]
+          - generic [ref=e307]:
+            - heading "Инструмент и оснастка Kemmler" [level=3] [ref=e308]
+            - generic [ref=e309]:
+              - text: Перейти в раздел
+              - img [ref=e310]
+        - link "Инструмент и оснастка OSG Перейти в раздел" [ref=e313] [cursor=pointer]:
+          - /url: /catalog/osg-1
+          - img [ref=e315]
+          - generic [ref=e316]:
+            - heading "Инструмент и оснастка OSG" [level=3] [ref=e317]
+            - generic [ref=e318]:
+              - text: Перейти в раздел
+              - img [ref=e319]
+        - link "Инструмент и оснастка PRECITOOL Перейти в раздел" [ref=e322] [cursor=pointer]:
+          - /url: /catalog/precitool
+          - img [ref=e324]
+          - generic [ref=e325]:
+            - heading "Инструмент и оснастка PRECITOOL" [level=3] [ref=e326]
+            - generic [ref=e327]:
+              - text: Перейти в раздел
+              - img [ref=e328]
+        - link "Инструмент и оснастка SCHWARZ Перейти в раздел" [ref=e331] [cursor=pointer]:
+          - /url: /catalog/schwarz
+          - img [ref=e333]
+          - generic [ref=e334]:
+            - heading "Инструмент и оснастка SCHWARZ" [level=3] [ref=e335]
+            - generic [ref=e336]:
+              - text: Перейти в раздел
+              - img [ref=e337]
+        - link "Мойка и подготовка Перейти в раздел" [ref=e340] [cursor=pointer]:
+          - /url: /catalog/moyka-i-podgotovka
+          - img [ref=e342]
+          - generic [ref=e343]:
+            - heading "Мойка и подготовка" [level=3] [ref=e344]
+            - generic [ref=e345]:
+              - text: Перейти в раздел
+              - img [ref=e346]
+    - contentinfo [ref=e348]:
+      - generic [ref=e349]:
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - heading "Информация" [level=3] [ref=e352]
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - link "Помощь" [ref=e355] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=e356]:
+                - link "Условия оплаты" [ref=e357] [cursor=pointer]:
+                  - /url: /payment
+              - listitem [ref=e358]:
+                - link "Условия доставки" [ref=e359] [cursor=pointer]:
+                  - /url: /delivery
+              - listitem [ref=e360]:
+                - link "Гарантия на товар" [ref=e361] [cursor=pointer]:
+                  - /url: /warranty
+              - listitem [ref=e362]:
+                - link "Политика использования файлов cookie" [ref=e363] [cursor=pointer]:
+                  - /url: /cookies
+              - listitem [ref=e364]:
+                - link "Политика конфиденциальности" [ref=e365] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e366]:
+            - heading "Компания" [level=3] [ref=e367]
+            - list [ref=e368]:
+              - listitem [ref=e369]:
+                - link "О компании" [ref=e370] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e371]:
+                - link "Услуги" [ref=e372] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e373]:
+                - link "Отраслевые решения" [ref=e374] [cursor=pointer]:
+                  - /url: /solutions
+              - listitem [ref=e375]:
+                - link "Бренды" [ref=e376] [cursor=pointer]:
+                  - /url: /brands
+              - listitem [ref=e377]:
+                - link "Блог" [ref=e378] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e379]:
+                - link "Реквизиты" [ref=e380] [cursor=pointer]:
+                  - /url: /requisites
+              - listitem [ref=e381]:
+                - link "Лицензии и сертификаты" [ref=e382] [cursor=pointer]:
+                  - /url: /licenses-certificates
+              - listitem [ref=e383]:
+                - link "Контакты" [ref=e384] [cursor=pointer]:
+                  - /url: /contacts
+          - generic [ref=e385]:
+            - heading "Адреса филиалов и представительств" [level=3] [ref=e387]
+            - generic [ref=e388]:
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - generic [ref=e391]: Центральный офис, г. Санкт-Петербург, ул. Заусадебная, д. 15, строение 5
+                  - generic [ref=e392]: +7 (812) 640-39-96
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Екатеринбург, ул. Академика Вонсовского, д. 1-А
+                  - generic [ref=e395]: +7 (812) 640-39-96
+                - generic [ref=e396]:
+                  - generic [ref=e397]: Казань, ул. Михаила Миля, д. 33-А
+                  - generic [ref=e398]: +7 (843) 2-111-900
+                  - generic [ref=e399]: +7 (929) 118-43-40
+                - generic [ref=e400]:
+                  - generic [ref=e401]: Краснодар, ул. Шевченко, 152/2
+                  - generic [ref=e402]: +7 (911) 194-67-47
+              - iframe [ref=e404]:
+                - generic [ref=f111e2]:
+                  - generic:
+                    - generic:
+                      - generic [ref=f111e8]:
+                        - generic:
+                          - generic:
+                            - generic [ref=f111e9] [cursor=pointer]:
+                              - img [ref=f111e10]
+                              - img [ref=f111e16]
+                            - generic [ref=f111e18] [cursor=pointer]:
+                              - img [ref=f111e19]
+                              - img [ref=f111e25]
+                            - generic [ref=f111e27] [cursor=pointer]:
+                              - img [ref=f111e28]
+                              - img [ref=f111e34]
+                            - generic [ref=f111e36] [cursor=pointer]:
+                              - img [ref=f111e37]
+                              - img [ref=f111e43]
+                              - generic [ref=f111e45]: Центральный офис
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [ref=f111e46]:
+                              - generic [ref=f111e47]:
+                                - button [ref=f111e50] [cursor=pointer]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - button [ref=f111e52] [cursor=pointer]:
+                                  - generic [ref=f111e53]:
+                                    - generic:
+                                      - img
+                              - iframe [ref=f111e55]:
+                                
+                            - generic [ref=f111e56]:
+                              - generic [ref=f111e59]:
+                                - button "Приблизить" [ref=f111e61] [cursor=pointer]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - button "Отдалить" [ref=f111e63] [cursor=pointer]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - iframe [ref=f111e64]:
+                                
+                            - generic [ref=f111e65]:
+                              - button "Моё местоположение" [ref=f111e68] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                              - iframe [ref=f111e69]:
+                                
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Открыть в Яндекс Картах":
+                                    - generic:
+                                      - generic:
+                                        - img
+                                    - generic: Открыть в Яндекс Картах
+                              - iframe [ref=f111e70]:
+                                
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Открыть в Картах":
+                                    - generic:
+                                      - generic:
+                                        - img
+                                    - generic: Открыть в Картах
+                              - iframe [ref=f111e71]:
+                                
+                            - generic [ref=f111e72]:
+                              - button [ref=f111e75] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                              - iframe [ref=f111e76]:
+                                
+                          - generic:
+                            - generic:
+                              - contentinfo:
+                                - generic [ref=f111e78]:
+                                  - generic [ref=f111e79]: © Яндекс
+                                  - link "Условия использования" [ref=f111e80] [cursor=pointer]:
+                                    - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: 400 км
+                          - iframe [ref=f111e81]:
+                            
+                      - iframe [ref=f111e82]:
+                        
+        - generic [ref=e406]:
+          - generic [ref=e407]:
+            - generic [ref=e408]: Адрес
+            - generic [ref=e409]:
+              - text: г. Санкт-Петербург,
+              - text: ул. Заусадебная, д. 15,
+              - text: стр. 5
+          - generic [ref=e410]:
+            - generic [ref=e411]: График работы
+            - generic [ref=e412]:
+              - text: "Пн–Пт: 9:00–18:00"
+              - text: "Сб–Вс: выходной"
+          - generic [ref=e413]:
+            - generic [ref=e414]: Контакты
+            - generic [ref=e415]:
+              - link "+7 (812) 640-39-96" [ref=e416] [cursor=pointer]:
+                - /url: tel:+78126403996
+                - img [ref=e417]
+                - generic [ref=e419]: +7 (812) 640-39-96
+              - link "info@cnc.su" [ref=e420] [cursor=pointer]:
+                - /url: mailto:info@cnc.su
+                - img [ref=e421]
+                - generic [ref=e424]: info@cnc.su
+          - generic [ref=e425]:
+            - generic [ref=e426]: Мессенджеры
+            - generic [ref=e427]:
+              - link "Telegram" [ref=e428] [cursor=pointer]:
+                - /url: https://t.me/
+                - img [ref=e429]
+              - link "WhatsApp" [ref=e432] [cursor=pointer]:
+                - /url: https://wa.me/78126403996
+                - img [ref=e433]
+              - link "Email" [ref=e435] [cursor=pointer]:
+                - /url: mailto:info@cnc.su
+                - img [ref=e436]
+        - generic [ref=e440]:
+          - paragraph [ref=e441]: © 2026 ООО «АВТОграф Инструментальные Решения»
+          - paragraph [ref=e442]: Информация на данном интернет-сайте носит исключительно ознакомительный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ. Поставщик оставляет за собой право без предварительного уведомления вносить изменения в стоимость, конструкцию и комплектацию изделий.
+  - generic [ref=e6]:
+    - button "Menu" [ref=e7]:
+      - img [ref=e9]
+      - generic: Menu
+    - button "Inspect" [ref=e13]:
+      - img [ref=e15]
+      - generic: Inspect
+    - button "Audit" [ref=e17]:
+      - generic [ref=e18]:
+        - img [ref=e19]
+        - img [ref=e444]
+      - generic: Audit
+    - button "Settings" [ref=e22]:
+      - img [ref=e24]
+      - generic: Settings

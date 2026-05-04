@@ -1,0 +1,608 @@
+- generic [active] [ref=e1]:
+  - link "Перейти к содержимому" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e28]:
+    - banner [ref=e29]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - link "+7 (812) 640-39-96" [ref=e33] [cursor=pointer]:
+            - /url: tel:+78126403996
+            - img [ref=e34]
+            - generic [ref=e36]: +7 (812) 640-39-96
+          - link "info@cnc.su" [ref=e37] [cursor=pointer]:
+            - /url: mailto:info@cnc.su
+            - img [ref=e38]
+            - generic [ref=e41]: info@cnc.su
+        - generic [ref=e42]: г. Санкт-Петербург, ул. Заусадебная, д. 15, стр. 5
+      - generic [ref=e44]:
+        - link "АВТОграф Инструментальные Решения" [ref=e45] [cursor=pointer]:
+          - /url: /
+          - img "АВТОграф Инструментальные Решения" [ref=e46]
+        - navigation [ref=e47]:
+          - link "Каталог" [ref=e48] [cursor=pointer]:
+            - /url: /catalog
+            - img [ref=e50]
+            - generic [ref=e55]: Каталог
+          - link "Услуги" [ref=e56] [cursor=pointer]:
+            - /url: /services
+            - img [ref=e58]
+            - generic [ref=e60]: Услуги
+          - link "Решения" [ref=e61] [cursor=pointer]:
+            - /url: /solutions
+            - img [ref=e63]
+            - generic [ref=e65]: Решения
+          - link "Поставщики" [ref=e66] [cursor=pointer]:
+            - /url: /brands
+            - img [ref=e68]
+            - generic [ref=e71]: Поставщики
+          - link "Партнеры" [ref=e72] [cursor=pointer]:
+            - /url: /partners
+            - img [ref=e74]
+            - generic [ref=e79]: Партнеры
+          - link "Блог" [ref=e80] [cursor=pointer]:
+            - /url: /blog
+            - img [ref=e82]
+            - generic [ref=e85]: Блог
+          - link "О компании" [ref=e86] [cursor=pointer]:
+            - /url: /about
+            - img [ref=e88]
+            - generic [ref=e92]: О компании
+          - link "Контакты" [ref=e93] [cursor=pointer]:
+            - /url: /contacts
+            - img [ref=e95]
+            - generic [ref=e98]: Контакты
+        - generic [ref=e99]:
+          - link "Поиск по сайту" [ref=e100] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e103]
+            - generic [ref=e106]: Поиск по сайту
+          - link "Сравнение" [ref=e107] [cursor=pointer]:
+            - /url: /compare
+            - img [ref=e110]
+            - generic [ref=e112]: Сравнение
+          - link "Избранное" [ref=e113] [cursor=pointer]:
+            - /url: /favorites
+            - img [ref=e116]
+            - generic [ref=e118]: Избранное
+          - link "Корзина" [ref=e119] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e122]
+            - generic [ref=e126]: Корзина
+          - link "Войти" [ref=e128] [cursor=pointer]:
+            - /url: /account-login
+            - img [ref=e130]
+            - generic [ref=e133]: Войти
+    - main [ref=e134]:
+      - generic [ref=e135]:
+        - img [ref=e137]
+        - generic [ref=e142]:
+          - heading "Инструментальные решения для современного производства" [level=1] [ref=e144]:
+            - text: Инструментальные
+            - text: решения для современного производства
+          - paragraph [ref=e145]: Комплексные поставки металлорежущего инструмента, станочной оснастки и инженерных услуг экспертного уровня.
+          - generic [ref=e146]:
+            - link "Перейти в каталог" [ref=e147] [cursor=pointer]:
+              - /url: /catalog
+              - button "Перейти в каталог" [ref=e148]:
+                - generic [ref=e149]:
+                  - text: Перейти в каталог
+                  - img
+            - link "Получить консультацию" [ref=e151] [cursor=pointer]:
+              - /url: /contacts#request-form
+              - button "Получить консультацию" [ref=e152]
+      - generic [ref=e155]:
+        - generic [ref=e157]:
+          - img [ref=e159]
+          - paragraph [ref=e164]: Комплектация предприятий под ключ
+        - generic [ref=e166]:
+          - img [ref=e168]
+          - paragraph [ref=e172]: Весь товар сертифицирован
+        - generic [ref=e174]:
+          - img [ref=e176]
+          - paragraph [ref=e179]: Инженерные услуги и техподдержка
+        - generic [ref=e181]:
+          - img [ref=e183]
+          - paragraph [ref=e187]: Официальные поставки и надежные бренды
+        - generic [ref=e189]:
+          - img [ref=e191]
+          - paragraph [ref=e197]: Удобная и быстрая доставка
+      - generic [ref=e198]:
+        - paragraph [ref=e202]: Наши поставщики
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - link "DEBEVER" [ref=e206] [cursor=pointer]:
+              - /url: /catalog
+              - img "DEBEVER" [ref=e207]
+            - link "Debever Machining Solutions" [ref=e208] [cursor=pointer]:
+              - /url: /catalog
+              - img "Debever Machining Solutions" [ref=e209]
+            - link "Debever SafeCut" [ref=e210] [cursor=pointer]:
+              - /url: /catalog
+              - img "Debever SafeCut" [ref=e211]
+            - link "HPMT" [ref=e212] [cursor=pointer]:
+              - /url: /catalog
+              - img "HPMT" [ref=e213]
+            - link "KENNAMETAL" [ref=e214] [cursor=pointer]:
+              - /url: /catalog
+              - img "KENNAMETAL" [ref=e215]
+            - link "OPTIMUS" [ref=e216] [cursor=pointer]:
+              - /url: /catalog
+              - img "OPTIMUS" [ref=e217]
+            - link "OSG" [ref=e218] [cursor=pointer]:
+              - /url: /catalog
+              - img "OSG" [ref=e219]
+            - link "PRECITOOL" [ref=e220] [cursor=pointer]:
+              - /url: /catalog
+              - img "PRECITOOL" [ref=e221]
+            - link "PROIAN" [ref=e222] [cursor=pointer]:
+              - /url: /catalog
+              - img "PROIAN" [ref=e223]
+            - link "PROJAHN" [ref=e224] [cursor=pointer]:
+              - /url: /catalog
+              - img "PROJAHN"
+            - link "S.Gothard" [ref=e225] [cursor=pointer]:
+              - /url: /catalog
+              - img "S.Gothard"
+            - link "SCHWARZ" [ref=e226] [cursor=pointer]:
+              - /url: /catalog
+              - img "SCHWARZ"
+            - link "SUMITOMO" [ref=e227] [cursor=pointer]:
+              - /url: /catalog
+              - img "SUMITOMO"
+            - link "WIEDERKRAFT" [ref=e228] [cursor=pointer]:
+              - /url: /catalog
+              - img "WIEDERKRAFT"
+            - link "ФИКСОМАТИК" [ref=e229] [cursor=pointer]:
+              - /url: /catalog
+              - img "ФИКСОМАТИК"
+          - generic [ref=e230]:
+            - link [ref=e231] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e232]
+            - link [ref=e233] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e234]
+            - link [ref=e235] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e236]
+            - link [ref=e237] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e238]
+            - link [ref=e239] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e240]
+            - link [ref=e241] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e242]
+            - link [ref=e243] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e244]
+            - link [ref=e245] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e246]
+            - link [ref=e247] [cursor=pointer]:
+              - /url: /catalog
+              - img [ref=e248]
+            - link [ref=e249] [cursor=pointer]:
+              - /url: /catalog
+            - link [ref=e250] [cursor=pointer]:
+              - /url: /catalog
+            - link [ref=e251] [cursor=pointer]:
+              - /url: /catalog
+            - link [ref=e252] [cursor=pointer]:
+              - /url: /catalog
+            - link [ref=e253] [cursor=pointer]:
+              - /url: /catalog
+            - link [ref=e254] [cursor=pointer]:
+              - /url: /catalog
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - link "DEBEVER MS" [ref=e259] [cursor=pointer]:
+            - /url: /catalog
+            - img "DEBEVER MS" [ref=e260]
+          - link "PROIAN" [ref=e261] [cursor=pointer]:
+            - /url: /company/brands/proian
+            - img "PROIAN" [ref=e262]
+          - link "DEBEVER SafeCut" [ref=e263] [cursor=pointer]:
+            - /url: /catalog/smazochno-okhlazhdayushchie-zhidkosti-sozh
+            - img "DEBEVER SafeCut" [ref=e264]
+          - link "Fiksomatik" [ref=e265] [cursor=pointer]:
+            - /url: /catalog/fiksatory-soedineniy-i-smazki
+            - img "Fiksomatik" [ref=e266]
+          - link "OPTIMUS" [ref=e267] [cursor=pointer]:
+            - /url: /company/brands/optimus
+            - img "OPTIMUS" [ref=e268]
+        - button "Предыдущий слайд" [ref=e269] [cursor=pointer]:
+          - img [ref=e270]
+        - button "Следующий слайд" [ref=e272] [cursor=pointer]:
+          - img [ref=e273]
+        - generic [ref=e275]:
+          - button "Перейти к слайду 1" [ref=e276] [cursor=pointer]
+          - button "Перейти к слайду 2" [ref=e277] [cursor=pointer]
+          - button "Перейти к слайду 3" [ref=e278] [cursor=pointer]
+          - button "Перейти к слайду 4" [ref=e279] [cursor=pointer]
+          - button "Перейти к слайду 5" [ref=e280] [cursor=pointer]
+      - generic [ref=e282]:
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - generic [ref=e287]: Оборудование и инструмент
+            - heading "Каталог продукции" [level=2] [ref=e288]
+          - link "Смотреть весь каталог" [ref=e289] [cursor=pointer]:
+            - /url: /catalog
+            - text: Смотреть весь каталог
+            - img [ref=e290]
+        - generic [ref=e293]:
+          - link "Металлообрабатывающие станки Металлообрабатывающие станки Станки и оборудование для производственных задач." [ref=e295] [cursor=pointer]:
+            - /url: /catalog/metalloobrabatyvayushchie-stanki
+            - img "Металлообрабатывающие станки" [ref=e296]
+            - generic [ref=e299]:
+              - heading "Металлообрабатывающие станки" [level=3] [ref=e300]
+              - paragraph [ref=e301]: Станки и оборудование для производственных задач.
+              - img [ref=e303]
+          - link "Токарная обработка Токарная обработка Инструмент и решения для токарных операций." [ref=e306] [cursor=pointer]:
+            - /url: /catalog/tokarnaya-obrabotka
+            - img "Токарная обработка" [ref=e307]
+            - generic [ref=e310]:
+              - heading "Токарная обработка" [level=3] [ref=e311]
+              - paragraph [ref=e312]: Инструмент и решения для токарных операций.
+              - img [ref=e314]
+          - link "Станочная оснастка Станочная оснастка Оснастка и вспомогательное оборудование." [ref=e317] [cursor=pointer]:
+            - /url: /catalog/stanochnaya-osnastka
+            - img "Станочная оснастка" [ref=e318]
+            - generic [ref=e321]:
+              - heading "Станочная оснастка" [level=3] [ref=e322]
+              - paragraph [ref=e323]: Оснастка и вспомогательное оборудование.
+              - img [ref=e325]
+          - link "СОЖ и масла СОЖ и масла Смазочно-охлаждающие жидкости и масла." [ref=e328] [cursor=pointer]:
+            - /url: /catalog/sozh-i-masla
+            - img "СОЖ и масла" [ref=e329]
+            - generic [ref=e332]:
+              - heading "СОЖ и масла" [level=3] [ref=e333]
+              - paragraph [ref=e334]: Смазочно-охлаждающие жидкости и масла.
+              - img [ref=e336]
+          - link "Фрезерная обработка Фрезерная обработка Инструмент и решения для фрезерной обработки." [ref=e339] [cursor=pointer]:
+            - /url: /catalog/frezernaya-obrabotka
+            - img "Фрезерная обработка" [ref=e340]
+            - generic [ref=e343]:
+              - heading "Фрезерная обработка" [level=3] [ref=e344]
+              - paragraph [ref=e345]: Инструмент и решения для фрезерной обработки.
+              - img [ref=e347]
+      - generic [ref=e349]:
+        - img "Инженерные услуги" [ref=e351]
+        - generic [ref=e356]:
+          - generic [ref=e357]: Экспертиза
+          - heading "Инженерные услуги" [level=2] [ref=e358]
+          - paragraph [ref=e359]: Мы не просто поставляем инструмент. Мы обеспечиваем полный цикл технической поддержки, от аудита до внедрения технологий на вашем производстве.
+          - generic [ref=e360]:
+            - link "Все услуги" [ref=e361] [cursor=pointer]:
+              - /url: /services
+              - button "Все услуги" [ref=e362]:
+                - generic [ref=e363]:
+                  - text: Все услуги
+                  - img
+            - link "Получить консультацию" [ref=e365] [cursor=pointer]:
+              - /url: /contacts#request-form
+              - button "Получить консультацию" [ref=e366]
+      - generic [ref=e368]:
+        - generic [ref=e369]:
+          - generic [ref=e372]: Почему выбирают нас
+          - heading "Надежный партнер для вашего производства" [level=2] [ref=e374]
+        - generic [ref=e375]:
+          - generic [ref=e376]:
+            - img [ref=e377]
+            - generic [ref=e381]:
+              - heading "Широкий ассортимент" [level=3] [ref=e382]
+              - paragraph [ref=e383]: Более 50 000 наименований инструмента и оснастки от ведущих мировых производителей всегда в наличии на складе.
+          - generic [ref=e384]:
+            - img [ref=e385]
+            - generic [ref=e388]:
+              - heading "Надежные поставки" [level=3] [ref=e389]
+              - paragraph [ref=e390]: Прямые контракты гарантируют стабильность и защиту от контрафакта.
+          - generic [ref=e391]:
+            - img [ref=e392]
+            - generic [ref=e394]:
+              - heading "Техподдержка 24/7" [level=3] [ref=e395]
+              - paragraph [ref=e396]: Квалифицированные инженеры помогут подобрать оптимальное решение.
+          - generic [ref=e397]:
+            - img [ref=e398]
+            - generic [ref=e400]:
+              - heading "Комплектация предприятий" [level=3] [ref=e401]
+              - paragraph [ref=e402]: Берем на себя полное обеспечение инструментальных участков и цехов.
+          - generic [ref=e403]:
+            - img [ref=e404]
+            - generic [ref=e407]:
+              - heading "Комплексный сервис" [level=3] [ref=e408]
+              - paragraph [ref=e409]: От подбора инструмента до монтажа оборудования, пусконаладки и обучения персонала.
+      - generic [ref=e412]:
+        - generic [ref=e413]:
+          - generic [ref=e414]:
+            - generic [ref=e417]: Применение
+            - heading "Решения для любой отрасли" [level=2] [ref=e418]
+          - generic [ref=e419]:
+            - generic [ref=e420]:
+              - generic [ref=e421]: "1"
+              - generic [ref=e422]:
+                - heading "Машиностроение" [level=4] [ref=e423]
+                - paragraph [ref=e424]: Комплексное оснащение производственных линий.
+            - generic [ref=e425]:
+              - generic [ref=e426]: "2"
+              - generic [ref=e427]:
+                - heading "Серийное производство" [level=4] [ref=e428]
+                - paragraph [ref=e429]: Оптимизация процессов и снижение себестоимости.
+            - generic [ref=e430]:
+              - generic [ref=e431]: "3"
+              - generic [ref=e432]:
+                - heading "Инструментальные участки" [level=4] [ref=e433]
+                - paragraph [ref=e434]: Полный цикл оснащения от проектирования до запуска.
+          - link "Все отраслевые решения" [ref=e436] [cursor=pointer]:
+            - /url: /solutions
+            - button "Все отраслевые решения" [ref=e437]
+        - generic [ref=e438]:
+          - img "Производственный участок со станками" [ref=e439]
+          - generic [ref=e440]:
+            - generic [ref=e441]: 15+
+            - generic [ref=e442]: Лет опыта в оснащении производств
+      - generic [ref=e444]:
+        - generic [ref=e445]:
+          - generic [ref=e446]:
+            - generic [ref=e449]: База знаний
+            - heading "Экспертиза и новости" [level=2] [ref=e450]
+          - link "Перейти в блог" [ref=e451] [cursor=pointer]:
+            - /url: /blog
+            - text: Перейти в блог
+            - img [ref=e452]
+        - generic [ref=e455]:
+          - link "Комплексное сопровождение станков S.Gothard – от поставки и монтажа до сервисного обслуживания Новости 28.11.2025 Редакция Комплексное сопровождение станков S.Gothard – от поставки и монтажа до сервисного обслуживания Компания «АВТОграф Инструментальные Решения» обеспечивает полное сопровождение поставляемого станочного оборудования S.Gothard во всех регионах России. Осуществив ввод станков в эксплуатацию и завершив проект, компания продолжает оказывать предприятию-заказчику всю необходимую поддержку, включая консультации и помощь в настройке, поставку расходных материалов, инструмента и СОЖ, проведение регламентных работ." [ref=e457] [cursor=pointer]:
+            - /url: /blog/kompleksnoe-soprovozhdenie-stankov-s-gothard-ot-postavki-i-montazha-do-servisnogo-obsluzhivaniya
+            - generic [ref=e458]:
+              - img "Комплексное сопровождение станков S.Gothard – от поставки и монтажа до сервисного обслуживания" [ref=e459]
+              - generic [ref=e460]: Новости
+            - generic [ref=e461]:
+              - generic [ref=e462]: 28.11.2025
+              - generic [ref=e464]: Редакция
+            - heading "Комплексное сопровождение станков S.Gothard – от поставки и монтажа до сервисного обслуживания" [level=3] [ref=e465]
+            - paragraph [ref=e466]: Компания «АВТОграф Инструментальные Решения» обеспечивает полное сопровождение поставляемого станочного оборудования S.Gothard во всех регионах России. Осуществив ввод станков в эксплуатацию и завершив проект, компания продолжает оказывать предприятию-заказчику всю необходимую поддержку, включая консультации и помощь в настройке, поставку расходных материалов, инструмента и СОЖ, проведение регламентных работ.
+          - generic [ref=e467]:
+            - link "Флагманы российской металлургии выбирают станки S.Gothard Новости Флагманы российской металлургии выбирают станки S.Gothard Компания «АВТОграф Инструментальные Решения» реализовала проект по оснащению токарными обрабатывающими центрами S.Gothard производственного участка одного из лидеров российской металлургии АО «Уральская Сталь». Компания «АВТОграф Инструментальные Решения» обеспечила весь комплекс инжиниринговых работ – от предпроектной проработки до ввода оборудования в штатную эксплуатацию." [ref=e469] [cursor=pointer]:
+              - /url: /blog/flagmany-rossiyskoy-metallurgii-vybirayut-stanki-s-gothard
+              - img "Флагманы российской металлургии выбирают станки S.Gothard" [ref=e471]
+              - generic [ref=e472]: Новости
+              - heading "Флагманы российской металлургии выбирают станки S.Gothard" [level=4] [ref=e473]
+              - paragraph [ref=e474]: Компания «АВТОграф Инструментальные Решения» реализовала проект по оснащению токарными обрабатывающими центрами S.Gothard производственного участка одного из лидеров российской металлургии АО «Уральская Сталь». Компания «АВТОграф Инструментальные Решения» обеспечила весь комплекс инжиниринговых работ – от предпроектной проработки до ввода оборудования в штатную эксплуатацию.
+            - 'link "Станки по металлу S.Gothard: ключ к новым технологиям Новости Станки по металлу S.Gothard: ключ к новым технологиям В научно-производственном комплексе Санкт-Петербургского морского технического университета введены в эксплуатацию современные металлообрабатывающие центры с числовым программным управлением S.Gothard. Поставку оборудования, монтаж и пусконаладочные работы обеспечила компания «АВТОграф Инструментальные Решения»." [ref=e476] [cursor=pointer]':
+              - /url: /blog/stanki-po-metallu-s-gothard-klyuch-k-novym-tehnologiyam
+              - 'img "Станки по металлу S.Gothard: ключ к новым технологиям" [ref=e478]'
+              - generic [ref=e479]: Новости
+              - 'heading "Станки по металлу S.Gothard: ключ к новым технологиям" [level=4] [ref=e480]'
+              - paragraph [ref=e481]: В научно-производственном комплексе Санкт-Петербургского морского технического университета введены в эксплуатацию современные металлообрабатывающие центры с числовым программным управлением S.Gothard. Поставку оборудования, монтаж и пусконаладочные работы обеспечила компания «АВТОграф Инструментальные Решения».
+      - generic [ref=e482]:
+        - img "Background" [ref=e484]
+        - generic [ref=e487]:
+          - heading "Готовы модернизировать свое производство?" [level=2] [ref=e488]:
+            - text: Готовы модернизировать
+            - text: свое производство?
+          - paragraph [ref=e489]: Свяжитесь с нашими инженерами для получения профессиональной консультации, подбора инструмента и расчета коммерческого предложения.
+          - generic [ref=e490]:
+            - link "Запросить КП" [ref=e491] [cursor=pointer]:
+              - /url: /contacts#request-form
+              - button "Запросить КП" [ref=e492]
+            - link "+7 (812) 640-39-96" [ref=e493] [cursor=pointer]:
+              - /url: tel:+78126403996
+              - button "+7 (812) 640-39-96" [ref=e494]
+    - contentinfo [ref=e495]:
+      - generic [ref=e496]:
+        - generic [ref=e497]:
+          - generic [ref=e498]:
+            - heading "Информация" [level=3] [ref=e499]
+            - list [ref=e500]:
+              - listitem [ref=e501]:
+                - link "Помощь" [ref=e502] [cursor=pointer]:
+                  - /url: /help
+              - listitem [ref=e503]:
+                - link "Условия оплаты" [ref=e504] [cursor=pointer]:
+                  - /url: /payment
+              - listitem [ref=e505]:
+                - link "Условия доставки" [ref=e506] [cursor=pointer]:
+                  - /url: /delivery
+              - listitem [ref=e507]:
+                - link "Гарантия на товар" [ref=e508] [cursor=pointer]:
+                  - /url: /warranty
+              - listitem [ref=e509]:
+                - link "Политика использования файлов cookie" [ref=e510] [cursor=pointer]:
+                  - /url: /cookies
+              - listitem [ref=e511]:
+                - link "Политика конфиденциальности" [ref=e512] [cursor=pointer]:
+                  - /url: /privacy
+          - generic [ref=e513]:
+            - heading "Компания" [level=3] [ref=e514]
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "О компании" [ref=e517] [cursor=pointer]:
+                  - /url: /about
+              - listitem [ref=e518]:
+                - link "Услуги" [ref=e519] [cursor=pointer]:
+                  - /url: /services
+              - listitem [ref=e520]:
+                - link "Отраслевые решения" [ref=e521] [cursor=pointer]:
+                  - /url: /solutions
+              - listitem [ref=e522]:
+                - link "Бренды" [ref=e523] [cursor=pointer]:
+                  - /url: /brands
+              - listitem [ref=e524]:
+                - link "Блог" [ref=e525] [cursor=pointer]:
+                  - /url: /blog
+              - listitem [ref=e526]:
+                - link "Реквизиты" [ref=e527] [cursor=pointer]:
+                  - /url: /requisites
+              - listitem [ref=e528]:
+                - link "Лицензии и сертификаты" [ref=e529] [cursor=pointer]:
+                  - /url: /licenses-certificates
+              - listitem [ref=e530]:
+                - link "Контакты" [ref=e531] [cursor=pointer]:
+                  - /url: /contacts
+          - generic [ref=e532]:
+            - heading "Адреса филиалов и представительств" [level=3] [ref=e534]
+            - generic [ref=e535]:
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Центральный офис, г. Санкт-Петербург, ул. Заусадебная, д. 15, строение 5
+                  - generic [ref=e539]: +7 (812) 640-39-96
+                - generic [ref=e540]:
+                  - generic [ref=e541]: Екатеринбург, ул. Академика Вонсовского, д. 1-А
+                  - generic [ref=e542]: +7 (812) 640-39-96
+                - generic [ref=e543]:
+                  - generic [ref=e544]: Казань, ул. Михаила Миля, д. 33-А
+                  - generic [ref=e545]: +7 (843) 2-111-900
+                  - generic [ref=e546]: +7 (929) 118-43-40
+                - generic [ref=e547]:
+                  - generic [ref=e548]: Краснодар, ул. Шевченко, 152/2
+                  - generic [ref=e549]: +7 (911) 194-67-47
+              - iframe [ref=e551]:
+                - generic [ref=f141e2]:
+                  - generic:
+                    - generic:
+                      - generic [ref=f141e8]:
+                        - generic:
+                          - generic:
+                            - generic [ref=f141e9] [cursor=pointer]:
+                              - img [ref=f141e10]
+                              - img [ref=f141e16]
+                            - generic [ref=f141e18] [cursor=pointer]:
+                              - img [ref=f141e19]
+                              - img [ref=f141e25]
+                            - generic [ref=f141e27] [cursor=pointer]:
+                              - img [ref=f141e28]
+                              - img [ref=f141e34]
+                            - generic [ref=f141e36] [cursor=pointer]:
+                              - img [ref=f141e37]
+                              - img [ref=f141e43]
+                              - generic [ref=f141e45]: Центральный офис
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [ref=f141e46]:
+                              - generic [ref=f141e47]:
+                                - button [ref=f141e50] [cursor=pointer]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - button [ref=f141e52] [cursor=pointer]:
+                                  - generic [ref=f141e53]:
+                                    - generic:
+                                      - img
+                              - iframe [ref=f141e55]:
+                                
+                            - generic [ref=f141e56]:
+                              - generic [ref=f141e59]:
+                                - button "Приблизить" [ref=f141e61] [cursor=pointer]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - button "Отдалить" [ref=f141e63] [cursor=pointer]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                              - iframe [ref=f141e64]:
+                                
+                            - generic [ref=f141e65]:
+                              - button "Моё местоположение" [ref=f141e68] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                              - iframe [ref=f141e69]:
+                                
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Открыть в Яндекс Картах":
+                                    - generic:
+                                      - generic:
+                                        - img
+                                    - generic: Открыть в Яндекс Картах
+                              - iframe [ref=f141e70]:
+                                
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - button "Открыть в Картах":
+                                    - generic:
+                                      - generic:
+                                        - img
+                                    - generic: Открыть в Картах
+                              - iframe [ref=f141e71]:
+                                
+                            - generic [ref=f141e72]:
+                              - button [ref=f141e75] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                              - iframe [ref=f141e76]:
+                                
+                          - generic:
+                            - generic:
+                              - contentinfo:
+                                - generic [ref=f141e78]:
+                                  - generic [ref=f141e79]: © Яндекс
+                                  - link "Условия использования" [ref=f141e80] [cursor=pointer]:
+                                    - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: 400 км
+                          - iframe [ref=f141e81]:
+                            
+                      - iframe [ref=f141e82]:
+                        
+        - generic [ref=e553]:
+          - generic [ref=e554]:
+            - generic [ref=e555]: Адрес
+            - generic [ref=e556]:
+              - text: г. Санкт-Петербург,
+              - text: ул. Заусадебная, д. 15,
+              - text: стр. 5
+          - generic [ref=e557]:
+            - generic [ref=e558]: График работы
+            - generic [ref=e559]:
+              - text: "Пн–Пт: 9:00–18:00"
+              - text: "Сб–Вс: выходной"
+          - generic [ref=e560]:
+            - generic [ref=e561]: Контакты
+            - generic [ref=e562]:
+              - link "+7 (812) 640-39-96" [ref=e563] [cursor=pointer]:
+                - /url: tel:+78126403996
+                - img [ref=e564]
+                - generic [ref=e566]: +7 (812) 640-39-96
+              - link "info@cnc.su" [ref=e567] [cursor=pointer]:
+                - /url: mailto:info@cnc.su
+                - img [ref=e568]
+                - generic [ref=e571]: info@cnc.su
+          - generic [ref=e572]:
+            - generic [ref=e573]: Мессенджеры
+            - generic [ref=e574]:
+              - link "Telegram" [ref=e575] [cursor=pointer]:
+                - /url: https://t.me/
+                - img [ref=e576]
+              - link "WhatsApp" [ref=e579] [cursor=pointer]:
+                - /url: https://wa.me/78126403996
+                - img [ref=e580]
+              - link "Email" [ref=e582] [cursor=pointer]:
+                - /url: mailto:info@cnc.su
+                - img [ref=e583]
+        - generic [ref=e587]:
+          - paragraph [ref=e588]: © 2026 ООО «АВТОграф Инструментальные Решения»
+          - paragraph [ref=e589]: Информация на данном интернет-сайте носит исключительно ознакомительный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ. Поставщик оставляет за собой право без предварительного уведомления вносить изменения в стоимость, конструкцию и комплектацию изделий.
+  - generic [ref=e6]:
+    - button "Menu" [ref=e7]:
+      - img [ref=e9]
+      - generic: Menu
+    - button "Inspect" [ref=e13]:
+      - img [ref=e15]
+      - generic: Inspect
+    - button "Audit" [ref=e17]:
+      - generic [ref=e18]:
+        - img [ref=e19]
+        - img [ref=e591]
+      - generic: Audit
+    - button "Settings" [ref=e22]:
+      - img [ref=e24]
+      - generic: Settings

@@ -1,0 +1,1319 @@
+- generic [active] [ref=e1]:
+  - link "Перейти к содержимому" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - main [ref=e942]:
+    - generic [ref=e943]:
+      - generic [ref=e945]:
+        - generic [ref=e946]:
+          - link "+7 (812) 640-39-96" [ref=e947] [cursor=pointer]:
+            - /url: tel:+78126403996
+            - img [ref=e948]
+            - generic [ref=e950]: +7 (812) 640-39-96
+          - link "info@cnc.su" [ref=e951] [cursor=pointer]:
+            - /url: mailto:info@cnc.su
+            - img [ref=e952]
+            - generic [ref=e955]: info@cnc.su
+        - generic [ref=e956]: г. Санкт-Петербург, ул. Заусадебная, д. 15, стр. 5
+      - generic [ref=e958]:
+        - link "АВТОграф Инструментальные Решения" [ref=e959] [cursor=pointer]:
+          - /url: /
+          - img "АВТОграф Инструментальные Решения" [ref=e960]
+        - generic [ref=e961]:
+          - link "Поиск по сайту" [ref=e962] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e965]
+            - generic [ref=e968]: Поиск по сайту
+          - link "Сравнение" [ref=e969] [cursor=pointer]:
+            - /url: /compare
+            - img [ref=e972]
+            - generic [ref=e974]: Сравнение
+          - link "Избранное" [ref=e975] [cursor=pointer]:
+            - /url: /favorites
+            - img [ref=e978]
+            - generic [ref=e980]: Избранное
+          - link "Корзина" [ref=e981] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e984]
+            - generic [ref=e988]: Корзина
+          - link "Войти" [ref=e990] [cursor=pointer]:
+            - /url: /account-login
+            - img [ref=e992]
+            - generic [ref=e995]: Войти
+    - generic [ref=e996]:
+      - img [ref=e998]
+      - generic [ref=e1001]:
+        - generic [ref=e1002]:
+          - link "Главная" [ref=e1003] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e1004]: /
+          - link "Каталог" [ref=e1005] [cursor=pointer]:
+            - /url: /catalog
+          - generic [ref=e1117]: /
+          - link "Фрезерная обработка" [ref=e2300] [cursor=pointer]:
+            - /url: /catalog/frezernaya-obrabotka
+          - generic [ref=e2301]: /
+          - generic [ref=e2302]: Фрезы монолитные твердосплавные
+        - heading "Фрезы монолитные твердосплавные" [level=1] [ref=e2303]
+    - generic [ref=e1178]:
+      - complementary [ref=e1179]:
+        - generic [ref=e1182]: Фильтр по параметрам
+        - generic [ref=e1183]:
+          - generic [ref=e1184]:
+            - button "Цена" [ref=e1185] [cursor=pointer]:
+              - generic [ref=e1186]: Цена
+              - img [ref=e1187]
+            - generic [ref=e1189]:
+              - generic [ref=e1190]:
+                - textbox "От" [ref=e1191]
+                - textbox "До" [ref=e1192]
+              - generic [ref=e1193]: "Диапазон: 254,77 — 84736,16"
+          - generic [ref=e1194]:
+            - button "Наличие" [ref=e1195] [cursor=pointer]:
+              - generic [ref=e1196]: Наличие
+              - img [ref=e1197]
+            - generic [ref=e1199] [cursor=pointer]:
+              - checkbox "Только в наличии" [ref=e1200]
+              - text: Только в наличии
+          - button "Скрыть расширенные фильтры" [ref=e1202] [cursor=pointer]:
+            - generic [ref=e1203]: Скрыть расширенные фильтры
+            - img [ref=e1204]
+          - button "диаметр обнижения d1, мм" [ref=e1222] [cursor=pointer]:
+            - generic [ref=e1223]: диаметр обнижения d1, мм
+            - img [ref=e1224]
+          - button "диаметр обнижения d3, мм" [ref=e1227] [cursor=pointer]:
+            - generic [ref=e1228]: диаметр обнижения d3, мм
+            - img [ref=e1229]
+          - button "диаметр режущей части, мм" [ref=e1242] [cursor=pointer]:
+            - generic [ref=e1243]: диаметр режущей части, мм
+            - img [ref=e1244]
+          - button "диаметр хвостовика d2, мм" [ref=e1252] [cursor=pointer]:
+            - generic [ref=e1253]: диаметр хвостовика d2, мм
+            - img [ref=e1254]
+          - button "диаметр хвостовика, мм" [ref=e1257] [cursor=pointer]:
+            - generic [ref=e1258]: диаметр хвостовика, мм
+            - img [ref=e1259]
+          - button "длина обнижения l2, мм" [ref=e1262] [cursor=pointer]:
+            - generic [ref=e1263]: длина обнижения l2, мм
+            - img [ref=e1264]
+          - button "длина рабочей части l1, мм" [ref=e1267] [cursor=pointer]:
+            - generic [ref=e1268]: длина рабочей части l1, мм
+            - img [ref=e1269]
+          - button "длина рабочей части, мм" [ref=e1277] [cursor=pointer]:
+            - generic [ref=e1278]: длина рабочей части, мм
+            - img [ref=e1279]
+          - button "длина хвостовика, мм" [ref=e1282] [cursor=pointer]:
+            - generic [ref=e1283]: длина хвостовика, мм
+            - img [ref=e1284]
+          - button "исполнение" [ref=e1292] [cursor=pointer]:
+            - generic [ref=e1293]: исполнение
+            - img [ref=e1294]
+          - button "количество зубьев, z" [ref=e1297] [cursor=pointer]:
+            - generic [ref=e1298]: количество зубьев, z
+            - img [ref=e1299]
+          - button "максимальная глубина резания (ap max), мм" [ref=e1302] [cursor=pointer]:
+            - generic [ref=e1303]: максимальная глубина резания (ap max), мм
+            - img [ref=e1304]
+          - button "направление резания" [ref=e1312] [cursor=pointer]:
+            - generic [ref=e1313]: направление резания
+            - img [ref=e1314]
+          - button "обрабатываемый материал" [ref=e1317] [cursor=pointer]:
+            - generic [ref=e1318]: обрабатываемый материал
+            - img [ref=e1319]
+          - button "общая длина, мм" [ref=e1327] [cursor=pointer]:
+            - generic [ref=e1328]: общая длина, мм
+            - img [ref=e1329]
+          - button "покрытие" [ref=e1337] [cursor=pointer]:
+            - generic [ref=e1338]: покрытие
+            - img [ref=e1339]
+          - button "производитель" [ref=e1347] [cursor=pointer]:
+            - generic [ref=e1348]: производитель
+            - img [ref=e1349]
+          - button "радиус при вершине r1, мм" [ref=e1352] [cursor=pointer]:
+            - generic [ref=e1353]: радиус при вершине r1, мм
+            - img [ref=e1354]
+          - button "радиус при вершине, мм" [ref=e1357] [cursor=pointer]:
+            - generic [ref=e1358]: радиус при вершине, мм
+            - img [ref=e1359]
+          - button "радиус торцевой части r2, мм" [ref=e1362] [cursor=pointer]:
+            - generic [ref=e1363]: радиус торцевой части r2, мм
+            - img [ref=e1364]
+          - button "размер фаски/радиуса с/r, мм" [ref=e1367] [cursor=pointer]:
+            - generic [ref=e1368]: размер фаски/радиуса с/r, мм
+            - img [ref=e1369]
+          - button "размер d, мм" [ref=e1372] [cursor=pointer]:
+            - generic [ref=e1373]: размер d, мм
+            - img [ref=e1374]
+          - button "серия" [ref=e1397] [cursor=pointer]:
+            - generic [ref=e1398]: серия
+            - img [ref=e1399]
+          - button "угол заточки, °" [ref=e1417] [cursor=pointer]:
+            - generic [ref=e1418]: угол заточки, °
+            - img [ref=e1419]
+          - button "угол конусной части, °" [ref=e1422] [cursor=pointer]:
+            - generic [ref=e1423]: угол конусной части, °
+            - img [ref=e1424]
+          - button "штрихкод" [ref=e1427] [cursor=pointer]:
+            - generic [ref=e1428]: штрихкод
+            - img [ref=e1429]
+          - generic [ref=e1432]:
+            - button "Показать (3582)" [ref=e2304] [cursor=pointer]
+            - button "Сбросить" [ref=e1434] [cursor=pointer]
+      - generic [ref=e1436]:
+        - generic [ref=e1437]:
+          - generic [ref=e1438]:
+            - generic [ref=e1439]:
+              - combobox [ref=e1440]:
+                - option "Тип" [selected]
+                - option "Debever Machining Solutions Standard"
+                - option "HPMT"
+              - img
+            - generic [ref=e1441]:
+              - combobox [ref=e1442]:
+                - option "По умолчанию" [selected]
+                - option "По алфавиту (А-Я)"
+                - option "По алфавиту (Я-А)"
+                - option "По цене (сначала дороже)"
+                - option "По цене (сначала дешевле)"
+                - option "Сначала в наличии"
+                - option "Сначала не в наличии"
+              - img
+          - generic [ref=e1444]:
+            - button "Плитка" [ref=e1445] [cursor=pointer]:
+              - img [ref=e1446]
+            - button "Расширенный список" [ref=e1448] [cursor=pointer]:
+              - img [ref=e1449]
+            - button "Компактный список" [ref=e1451] [cursor=pointer]:
+              - img [ref=e1452]
+        - generic [ref=e1454]:
+          - generic [ref=e1456]:
+            - link "A5Е 0400 060 0600 1600 Добавить в избранное Добавить в сравнение" [ref=e1457] [cursor=pointer]:
+              - /url: /product/a5e-0400-060-0600-1600
+              - generic [ref=e1458]:
+                - img "A5Е 0400 060 0600 1600" [ref=e1459]
+                - generic [ref=e1460]:
+                  - button "Добавить в избранное" [ref=e1461]:
+                    - img [ref=e1462]
+                  - button "Добавить в сравнение" [ref=e1464]:
+                    - img [ref=e1465]
+            - generic [ref=e1467]:
+              - link "A5Е 0400 060 0600 1600" [ref=e1468] [cursor=pointer]:
+                - /url: /product/a5e-0400-060-0600-1600
+                - heading "A5Е 0400 060 0600 1600" [level=3] [ref=e1469]
+              - generic [ref=e1470]: "Артикул: A5Е 0400 060 0600 1600"
+              - generic [ref=e1472]:
+                - generic [ref=e1473]: Цена по запросу
+                - generic [ref=e1474]:
+                  - img [ref=e1475]
+                  - generic [ref=e1478]: Под заказ
+              - generic [ref=e1479]:
+                - generic [ref=e1480]:
+                  - button "Уменьшить количество" [ref=e1481] [cursor=pointer]:
+                    - img [ref=e1482]
+                  - generic [ref=e1483]: "1"
+                  - button "Увеличить количество" [ref=e1484] [cursor=pointer]:
+                    - img [ref=e1485]
+                - button "Добавить в корзину" [ref=e1486] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1487] [cursor=pointer]:
+                - /url: /product/a5e-0400-060-0600-1600
+                - text: Открыть товар
+                - img [ref=e1488]
+          - generic [ref=e1491]:
+            - link "A5Е 0300 075 0600 3000 Добавить в избранное Добавить в сравнение" [ref=e1492] [cursor=pointer]:
+              - /url: /product/a5e-0300-075-0600-3000
+              - generic [ref=e1493]:
+                - img "A5Е 0300 075 0600 3000" [ref=e1494]
+                - generic [ref=e1495]:
+                  - button "Добавить в избранное" [ref=e1496]:
+                    - img [ref=e1497]
+                  - button "Добавить в сравнение" [ref=e1499]:
+                    - img [ref=e1500]
+            - generic [ref=e1502]:
+              - link "A5Е 0300 075 0600 3000" [ref=e1503] [cursor=pointer]:
+                - /url: /product/a5e-0300-075-0600-3000
+                - heading "A5Е 0300 075 0600 3000" [level=3] [ref=e1504]
+              - generic [ref=e1505]: "Артикул: A5Е 0300 075 0600 3000"
+              - generic [ref=e1507]:
+                - generic [ref=e1508]: Цена по запросу
+                - generic [ref=e1509]:
+                  - img [ref=e1510]
+                  - generic [ref=e1513]: Под заказ
+              - generic [ref=e1514]:
+                - generic [ref=e1515]:
+                  - button "Уменьшить количество" [ref=e1516] [cursor=pointer]:
+                    - img [ref=e1517]
+                  - generic [ref=e1518]: "1"
+                  - button "Увеличить количество" [ref=e1519] [cursor=pointer]:
+                    - img [ref=e1520]
+                - button "Добавить в корзину" [ref=e1521] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1522] [cursor=pointer]:
+                - /url: /product/a5e-0300-075-0600-3000
+                - text: Открыть товар
+                - img [ref=e1523]
+          - generic [ref=e1526]:
+            - link "A5Е 0300 075 0600 2500 Добавить в избранное Добавить в сравнение" [ref=e1527] [cursor=pointer]:
+              - /url: /product/a5e-0300-075-0600-2500
+              - generic [ref=e1528]:
+                - img "A5Е 0300 075 0600 2500" [ref=e1529]
+                - generic [ref=e1530]:
+                  - button "Добавить в избранное" [ref=e1531]:
+                    - img [ref=e1532]
+                  - button "Добавить в сравнение" [ref=e1534]:
+                    - img [ref=e1535]
+            - generic [ref=e1537]:
+              - link "A5Е 0300 075 0600 2500" [ref=e1538] [cursor=pointer]:
+                - /url: /product/a5e-0300-075-0600-2500
+                - heading "A5Е 0300 075 0600 2500" [level=3] [ref=e1539]
+              - generic [ref=e1540]: "Артикул: A5Е 0300 075 0600 2500"
+              - generic [ref=e1542]:
+                - generic [ref=e1543]: Цена по запросу
+                - generic [ref=e1544]:
+                  - img [ref=e1545]
+                  - generic [ref=e1548]: Под заказ
+              - generic [ref=e1549]:
+                - generic [ref=e1550]:
+                  - button "Уменьшить количество" [ref=e1551] [cursor=pointer]:
+                    - img [ref=e1552]
+                  - generic [ref=e1553]: "1"
+                  - button "Увеличить количество" [ref=e1554] [cursor=pointer]:
+                    - img [ref=e1555]
+                - button "Добавить в корзину" [ref=e1556] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1557] [cursor=pointer]:
+                - /url: /product/a5e-0300-075-0600-2500
+                - text: Открыть товар
+                - img [ref=e1558]
+          - generic [ref=e1561]:
+            - link "A5Е 0300 060 0600 1600 Добавить в избранное Добавить в сравнение" [ref=e1562] [cursor=pointer]:
+              - /url: /product/a5e-0300-060-0600-1600
+              - generic [ref=e1563]:
+                - img "A5Е 0300 060 0600 1600" [ref=e1564]
+                - generic [ref=e1565]:
+                  - button "Добавить в избранное" [ref=e1566]:
+                    - img [ref=e1567]
+                  - button "Добавить в сравнение" [ref=e1569]:
+                    - img [ref=e1570]
+            - generic [ref=e1572]:
+              - link "A5Е 0300 060 0600 1600" [ref=e1573] [cursor=pointer]:
+                - /url: /product/a5e-0300-060-0600-1600
+                - heading "A5Е 0300 060 0600 1600" [level=3] [ref=e1574]
+              - generic [ref=e1575]: "Артикул: A5Е 0300 060 0600 1600"
+              - generic [ref=e1577]:
+                - generic [ref=e1578]: Цена по запросу
+                - generic [ref=e1579]:
+                  - img [ref=e1580]
+                  - generic [ref=e1583]: Под заказ
+              - generic [ref=e1584]:
+                - generic [ref=e1585]:
+                  - button "Уменьшить количество" [ref=e1586] [cursor=pointer]:
+                    - img [ref=e1587]
+                  - generic [ref=e1588]: "1"
+                  - button "Увеличить количество" [ref=e1589] [cursor=pointer]:
+                    - img [ref=e1590]
+                - button "Добавить в корзину" [ref=e1591] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1592] [cursor=pointer]:
+                - /url: /product/a5e-0300-060-0600-1600
+                - text: Открыть товар
+                - img [ref=e1593]
+          - generic [ref=e1596]:
+            - link "A5Е 0250 060 0400 2000 Добавить в избранное Добавить в сравнение" [ref=e1597] [cursor=pointer]:
+              - /url: /product/a5e-0250-060-0400-2000
+              - generic [ref=e1598]:
+                - img "A5Е 0250 060 0400 2000" [ref=e1599]
+                - generic [ref=e1600]:
+                  - button "Добавить в избранное" [ref=e1601]:
+                    - img [ref=e1602]
+                  - button "Добавить в сравнение" [ref=e1604]:
+                    - img [ref=e1605]
+            - generic [ref=e1607]:
+              - link "A5Е 0250 060 0400 2000" [ref=e1608] [cursor=pointer]:
+                - /url: /product/a5e-0250-060-0400-2000
+                - heading "A5Е 0250 060 0400 2000" [level=3] [ref=e1609]
+              - generic [ref=e1610]: "Артикул: A5Е 0250 060 0400 2000"
+              - generic [ref=e1612]:
+                - generic [ref=e1613]: Цена по запросу
+                - generic [ref=e1614]:
+                  - img [ref=e1615]
+                  - generic [ref=e1618]: Под заказ
+              - generic [ref=e1619]:
+                - generic [ref=e1620]:
+                  - button "Уменьшить количество" [ref=e1621] [cursor=pointer]:
+                    - img [ref=e1622]
+                  - generic [ref=e1623]: "1"
+                  - button "Увеличить количество" [ref=e1624] [cursor=pointer]:
+                    - img [ref=e1625]
+                - button "Добавить в корзину" [ref=e1626] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1627] [cursor=pointer]:
+                - /url: /product/a5e-0250-060-0400-2000
+                - text: Открыть товар
+                - img [ref=e1628]
+          - generic [ref=e1631]:
+            - link "A5Е 0250 060 0400 1600 Добавить в избранное Добавить в сравнение" [ref=e1632] [cursor=pointer]:
+              - /url: /product/a5e-0250-060-0400-1600
+              - generic [ref=e1633]:
+                - img "A5Е 0250 060 0400 1600" [ref=e1634]
+                - generic [ref=e1635]:
+                  - button "Добавить в избранное" [ref=e1636]:
+                    - img [ref=e1637]
+                  - button "Добавить в сравнение" [ref=e1639]:
+                    - img [ref=e1640]
+            - generic [ref=e1642]:
+              - link "A5Е 0250 060 0400 1600" [ref=e1643] [cursor=pointer]:
+                - /url: /product/a5e-0250-060-0400-1600
+                - heading "A5Е 0250 060 0400 1600" [level=3] [ref=e1644]
+              - generic [ref=e1645]: "Артикул: A5Е 0250 060 0400 1600"
+              - generic [ref=e1647]:
+                - generic [ref=e1648]: Цена по запросу
+                - generic [ref=e1649]:
+                  - img [ref=e1650]
+                  - generic [ref=e1653]: Под заказ
+              - generic [ref=e1654]:
+                - generic [ref=e1655]:
+                  - button "Уменьшить количество" [ref=e1656] [cursor=pointer]:
+                    - img [ref=e1657]
+                  - generic [ref=e1658]: "1"
+                  - button "Увеличить количество" [ref=e1659] [cursor=pointer]:
+                    - img [ref=e1660]
+                - button "Добавить в корзину" [ref=e1661] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1662] [cursor=pointer]:
+                - /url: /product/a5e-0250-060-0400-1600
+                - text: Открыть товар
+                - img [ref=e1663]
+          - generic [ref=e1666]:
+            - link "A5Е 0250 050 0400 1200 Добавить в избранное Добавить в сравнение" [ref=e1667] [cursor=pointer]:
+              - /url: /product/a5e-0250-050-0400-1200
+              - generic [ref=e1668]:
+                - img "A5Е 0250 050 0400 1200" [ref=e1669]
+                - generic [ref=e1670]:
+                  - button "Добавить в избранное" [ref=e1671]:
+                    - img [ref=e1672]
+                  - button "Добавить в сравнение" [ref=e1674]:
+                    - img [ref=e1675]
+            - generic [ref=e1677]:
+              - link "A5Е 0250 050 0400 1200" [ref=e1678] [cursor=pointer]:
+                - /url: /product/a5e-0250-050-0400-1200
+                - heading "A5Е 0250 050 0400 1200" [level=3] [ref=e1679]
+              - generic [ref=e1680]: "Артикул: A5Е 0250 050 0400 1200"
+              - generic [ref=e1682]:
+                - generic [ref=e1683]: Цена по запросу
+                - generic [ref=e1684]:
+                  - img [ref=e1685]
+                  - generic [ref=e1688]: Под заказ
+              - generic [ref=e1689]:
+                - generic [ref=e1690]:
+                  - button "Уменьшить количество" [ref=e1691] [cursor=pointer]:
+                    - img [ref=e1692]
+                  - generic [ref=e1693]: "1"
+                  - button "Увеличить количество" [ref=e1694] [cursor=pointer]:
+                    - img [ref=e1695]
+                - button "Добавить в корзину" [ref=e1696] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1697] [cursor=pointer]:
+                - /url: /product/a5e-0250-050-0400-1200
+                - text: Открыть товар
+                - img [ref=e1698]
+          - generic [ref=e1701]:
+            - link "A5Е 0250 050 0400 0800 Добавить в избранное Добавить в сравнение" [ref=e1702] [cursor=pointer]:
+              - /url: /product/a5e-0250-050-0400-0800
+              - generic [ref=e1703]:
+                - img "A5Е 0250 050 0400 0800" [ref=e1704]
+                - generic [ref=e1705]:
+                  - button "Добавить в избранное" [ref=e1706]:
+                    - img [ref=e1707]
+                  - button "Добавить в сравнение" [ref=e1709]:
+                    - img [ref=e1710]
+            - generic [ref=e1712]:
+              - link "A5Е 0250 050 0400 0800" [ref=e1713] [cursor=pointer]:
+                - /url: /product/a5e-0250-050-0400-0800
+                - heading "A5Е 0250 050 0400 0800" [level=3] [ref=e1714]
+              - generic [ref=e1715]: "Артикул: A5Е 0250 050 0400 0800"
+              - generic [ref=e1717]:
+                - generic [ref=e1718]: Цена по запросу
+                - generic [ref=e1719]:
+                  - img [ref=e1720]
+                  - generic [ref=e1723]: Под заказ
+              - generic [ref=e1724]:
+                - generic [ref=e1725]:
+                  - button "Уменьшить количество" [ref=e1726] [cursor=pointer]:
+                    - img [ref=e1727]
+                  - generic [ref=e1728]: "1"
+                  - button "Увеличить количество" [ref=e1729] [cursor=pointer]:
+                    - img [ref=e1730]
+                - button "Добавить в корзину" [ref=e1731] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1732] [cursor=pointer]:
+                - /url: /product/a5e-0250-050-0400-0800
+                - text: Открыть товар
+                - img [ref=e1733]
+          - generic [ref=e1736]:
+            - link "A5Е 0200 050 0400 1800 Добавить в избранное Добавить в сравнение" [ref=e1737] [cursor=pointer]:
+              - /url: /product/a5e-0200-050-0400-1800
+              - generic [ref=e1738]:
+                - img "A5Е 0200 050 0400 1800" [ref=e1739]
+                - generic [ref=e1740]:
+                  - button "Добавить в избранное" [ref=e1741]:
+                    - img [ref=e1742]
+                  - button "Добавить в сравнение" [ref=e1744]:
+                    - img [ref=e1745]
+            - generic [ref=e1747]:
+              - link "A5Е 0200 050 0400 1800" [ref=e1748] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-1800
+                - heading "A5Е 0200 050 0400 1800" [level=3] [ref=e1749]
+              - generic [ref=e1750]: "Артикул: A5Е 0200 050 0400 1800"
+              - generic [ref=e1752]:
+                - generic [ref=e1753]: Цена по запросу
+                - generic [ref=e1754]:
+                  - img [ref=e1755]
+                  - generic [ref=e1758]: Под заказ
+              - generic [ref=e1759]:
+                - generic [ref=e1760]:
+                  - button "Уменьшить количество" [ref=e1761] [cursor=pointer]:
+                    - img [ref=e1762]
+                  - generic [ref=e1763]: "1"
+                  - button "Увеличить количество" [ref=e1764] [cursor=pointer]:
+                    - img [ref=e1765]
+                - button "Добавить в корзину" [ref=e1766] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1767] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-1800
+                - text: Открыть товар
+                - img [ref=e1768]
+          - generic [ref=e1771]:
+            - link "A5Е 0200 050 0400 1400 Добавить в избранное Добавить в сравнение" [ref=e1772] [cursor=pointer]:
+              - /url: /product/a5e-0200-050-0400-1400
+              - generic [ref=e1773]:
+                - img "A5Е 0200 050 0400 1400" [ref=e1774]
+                - generic [ref=e1775]:
+                  - button "Добавить в избранное" [ref=e1776]:
+                    - img [ref=e1777]
+                  - button "Добавить в сравнение" [ref=e1779]:
+                    - img [ref=e1780]
+            - generic [ref=e1782]:
+              - link "A5Е 0200 050 0400 1400" [ref=e1783] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-1400
+                - heading "A5Е 0200 050 0400 1400" [level=3] [ref=e1784]
+              - generic [ref=e1785]: "Артикул: A5Е 0200 050 0400 1400"
+              - generic [ref=e1787]:
+                - generic [ref=e1788]: Цена по запросу
+                - generic [ref=e1789]:
+                  - img [ref=e1790]
+                  - generic [ref=e1793]: Под заказ
+              - generic [ref=e1794]:
+                - generic [ref=e1795]:
+                  - button "Уменьшить количество" [ref=e1796] [cursor=pointer]:
+                    - img [ref=e1797]
+                  - generic [ref=e1798]: "1"
+                  - button "Увеличить количество" [ref=e1799] [cursor=pointer]:
+                    - img [ref=e1800]
+                - button "Добавить в корзину" [ref=e1801] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1802] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-1400
+                - text: Открыть товар
+                - img [ref=e1803]
+          - generic [ref=e1806]:
+            - link "A5Е 0200 050 0400 1000 Добавить в избранное Добавить в сравнение" [ref=e1807] [cursor=pointer]:
+              - /url: /product/a5e-0200-050-0400-1000
+              - generic [ref=e1808]:
+                - img "A5Е 0200 050 0400 1000" [ref=e1809]
+                - generic [ref=e1810]:
+                  - button "Добавить в избранное" [ref=e1811]:
+                    - img [ref=e1812]
+                  - button "Добавить в сравнение" [ref=e1814]:
+                    - img [ref=e1815]
+            - generic [ref=e1817]:
+              - link "A5Е 0200 050 0400 1000" [ref=e1818] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-1000
+                - heading "A5Е 0200 050 0400 1000" [level=3] [ref=e1819]
+              - generic [ref=e1820]: "Артикул: A5Е 0200 050 0400 1000"
+              - generic [ref=e1822]:
+                - generic [ref=e1823]: Цена по запросу
+                - generic [ref=e1824]:
+                  - img [ref=e1825]
+                  - generic [ref=e1828]: Под заказ
+              - generic [ref=e1829]:
+                - generic [ref=e1830]:
+                  - button "Уменьшить количество" [ref=e1831] [cursor=pointer]:
+                    - img [ref=e1832]
+                  - generic [ref=e1833]: "1"
+                  - button "Увеличить количество" [ref=e1834] [cursor=pointer]:
+                    - img [ref=e1835]
+                - button "Добавить в корзину" [ref=e1836] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1837] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-1000
+                - text: Открыть товар
+                - img [ref=e1838]
+          - generic [ref=e1841]:
+            - link "A5Е 0200 050 0400 0600 Добавить в избранное Добавить в сравнение" [ref=e1842] [cursor=pointer]:
+              - /url: /product/a5e-0200-050-0400-0600
+              - generic [ref=e1843]:
+                - img "A5Е 0200 050 0400 0600" [ref=e1844]
+                - generic [ref=e1845]:
+                  - button "Добавить в избранное" [ref=e1846]:
+                    - img [ref=e1847]
+                  - button "Добавить в сравнение" [ref=e1849]:
+                    - img [ref=e1850]
+            - generic [ref=e1852]:
+              - link "A5Е 0200 050 0400 0600" [ref=e1853] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-0600
+                - heading "A5Е 0200 050 0400 0600" [level=3] [ref=e1854]
+              - generic [ref=e1855]: "Артикул: A5Е 0200 050 0400 0600"
+              - generic [ref=e1857]:
+                - generic [ref=e1858]: Цена по запросу
+                - generic [ref=e1859]:
+                  - img [ref=e1860]
+                  - generic [ref=e1863]: Под заказ
+              - generic [ref=e1864]:
+                - generic [ref=e1865]:
+                  - button "Уменьшить количество" [ref=e1866] [cursor=pointer]:
+                    - img [ref=e1867]
+                  - generic [ref=e1868]: "1"
+                  - button "Увеличить количество" [ref=e1869] [cursor=pointer]:
+                    - img [ref=e1870]
+                - button "Добавить в корзину" [ref=e1871] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1872] [cursor=pointer]:
+                - /url: /product/a5e-0200-050-0400-0600
+                - text: Открыть товар
+                - img [ref=e1873]
+          - generic [ref=e1876]:
+            - link "A5Е 0150 050 0400 1600 Добавить в избранное Добавить в сравнение" [ref=e1877] [cursor=pointer]:
+              - /url: /product/a5e-0150-050-0400-1600
+              - generic [ref=e1878]:
+                - img "A5Е 0150 050 0400 1600" [ref=e1879]
+                - generic [ref=e1880]:
+                  - button "Добавить в избранное" [ref=e1881]:
+                    - img [ref=e1882]
+                  - button "Добавить в сравнение" [ref=e1884]:
+                    - img [ref=e1885]
+            - generic [ref=e1887]:
+              - link "A5Е 0150 050 0400 1600" [ref=e1888] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-1600
+                - heading "A5Е 0150 050 0400 1600" [level=3] [ref=e1889]
+              - generic [ref=e1890]: "Артикул: A5Е 0150 050 0400 1600"
+              - generic [ref=e1892]:
+                - generic [ref=e1893]: Цена по запросу
+                - generic [ref=e1894]:
+                  - img [ref=e1895]
+                  - generic [ref=e1898]: Под заказ
+              - generic [ref=e1899]:
+                - generic [ref=e1900]:
+                  - button "Уменьшить количество" [ref=e1901] [cursor=pointer]:
+                    - img [ref=e1902]
+                  - generic [ref=e1903]: "1"
+                  - button "Увеличить количество" [ref=e1904] [cursor=pointer]:
+                    - img [ref=e1905]
+                - button "Добавить в корзину" [ref=e1906] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1907] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-1600
+                - text: Открыть товар
+                - img [ref=e1908]
+          - generic [ref=e1911]:
+            - link "A5Е 0150 050 0400 1400 Добавить в избранное Добавить в сравнение" [ref=e1912] [cursor=pointer]:
+              - /url: /product/a5e-0150-050-0400-1400
+              - generic [ref=e1913]:
+                - img "A5Е 0150 050 0400 1400" [ref=e1914]
+                - generic [ref=e1915]:
+                  - button "Добавить в избранное" [ref=e1916]:
+                    - img [ref=e1917]
+                  - button "Добавить в сравнение" [ref=e1919]:
+                    - img [ref=e1920]
+            - generic [ref=e1922]:
+              - link "A5Е 0150 050 0400 1400" [ref=e1923] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-1400
+                - heading "A5Е 0150 050 0400 1400" [level=3] [ref=e1924]
+              - generic [ref=e1925]: "Артикул: A5Е 0150 050 0400 1400"
+              - generic [ref=e1927]:
+                - generic [ref=e1928]: Цена по запросу
+                - generic [ref=e1929]:
+                  - img [ref=e1930]
+                  - generic [ref=e1933]: Под заказ
+              - generic [ref=e1934]:
+                - generic [ref=e1935]:
+                  - button "Уменьшить количество" [ref=e1936] [cursor=pointer]:
+                    - img [ref=e1937]
+                  - generic [ref=e1938]: "1"
+                  - button "Увеличить количество" [ref=e1939] [cursor=pointer]:
+                    - img [ref=e1940]
+                - button "Добавить в корзину" [ref=e1941] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1942] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-1400
+                - text: Открыть товар
+                - img [ref=e1943]
+          - generic [ref=e1946]:
+            - link "A5Е 0150 050 0400 1000 Добавить в избранное Добавить в сравнение" [ref=e1947] [cursor=pointer]:
+              - /url: /product/a5e-0150-050-0400-1000
+              - generic [ref=e1948]:
+                - img "A5Е 0150 050 0400 1000" [ref=e1949]
+                - generic [ref=e1950]:
+                  - button "Добавить в избранное" [ref=e1951]:
+                    - img [ref=e1952]
+                  - button "Добавить в сравнение" [ref=e1954]:
+                    - img [ref=e1955]
+            - generic [ref=e1957]:
+              - link "A5Е 0150 050 0400 1000" [ref=e1958] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-1000
+                - heading "A5Е 0150 050 0400 1000" [level=3] [ref=e1959]
+              - generic [ref=e1960]: "Артикул: A5Е 0150 050 0400 1000"
+              - generic [ref=e1962]:
+                - generic [ref=e1963]: Цена по запросу
+                - generic [ref=e1964]:
+                  - img [ref=e1965]
+                  - generic [ref=e1968]: Под заказ
+              - generic [ref=e1969]:
+                - generic [ref=e1970]:
+                  - button "Уменьшить количество" [ref=e1971] [cursor=pointer]:
+                    - img [ref=e1972]
+                  - generic [ref=e1973]: "1"
+                  - button "Увеличить количество" [ref=e1974] [cursor=pointer]:
+                    - img [ref=e1975]
+                - button "Добавить в корзину" [ref=e1976] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e1977] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-1000
+                - text: Открыть товар
+                - img [ref=e1978]
+          - generic [ref=e1981]:
+            - link "A5Е 0150 050 0400 0600 Добавить в избранное Добавить в сравнение" [ref=e1982] [cursor=pointer]:
+              - /url: /product/a5e-0150-050-0400-0600
+              - generic [ref=e1983]:
+                - img "A5Е 0150 050 0400 0600" [ref=e1984]
+                - generic [ref=e1985]:
+                  - button "Добавить в избранное" [ref=e1986]:
+                    - img [ref=e1987]
+                  - button "Добавить в сравнение" [ref=e1989]:
+                    - img [ref=e1990]
+            - generic [ref=e1992]:
+              - link "A5Е 0150 050 0400 0600" [ref=e1993] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-0600
+                - heading "A5Е 0150 050 0400 0600" [level=3] [ref=e1994]
+              - generic [ref=e1995]: "Артикул: A5Е 0150 050 0400 0600"
+              - generic [ref=e1997]:
+                - generic [ref=e1998]: Цена по запросу
+                - generic [ref=e1999]:
+                  - img [ref=e2000]
+                  - generic [ref=e2003]: Под заказ
+              - generic [ref=e2004]:
+                - generic [ref=e2005]:
+                  - button "Уменьшить количество" [ref=e2006] [cursor=pointer]:
+                    - img [ref=e2007]
+                  - generic [ref=e2008]: "1"
+                  - button "Увеличить количество" [ref=e2009] [cursor=pointer]:
+                    - img [ref=e2010]
+                - button "Добавить в корзину" [ref=e2011] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2012] [cursor=pointer]:
+                - /url: /product/a5e-0150-050-0400-0600
+                - text: Открыть товар
+                - img [ref=e2013]
+          - generic [ref=e2016]:
+            - link "A5Е 0100 050 0400 0800 Добавить в избранное Добавить в сравнение" [ref=e2017] [cursor=pointer]:
+              - /url: /product/a5e-0100-050-0400-0800
+              - generic [ref=e2018]:
+                - img "A5Е 0100 050 0400 0800" [ref=e2019]
+                - generic [ref=e2020]:
+                  - button "Добавить в избранное" [ref=e2021]:
+                    - img [ref=e2022]
+                  - button "Добавить в сравнение" [ref=e2024]:
+                    - img [ref=e2025]
+            - generic [ref=e2027]:
+              - link "A5Е 0100 050 0400 0800" [ref=e2028] [cursor=pointer]:
+                - /url: /product/a5e-0100-050-0400-0800
+                - heading "A5Е 0100 050 0400 0800" [level=3] [ref=e2029]
+              - generic [ref=e2030]: "Артикул: A5Е 0100 050 0400 0800"
+              - generic [ref=e2032]:
+                - generic [ref=e2033]: Цена по запросу
+                - generic [ref=e2034]:
+                  - img [ref=e2035]
+                  - generic [ref=e2038]: Под заказ
+              - generic [ref=e2039]:
+                - generic [ref=e2040]:
+                  - button "Уменьшить количество" [ref=e2041] [cursor=pointer]:
+                    - img [ref=e2042]
+                  - generic [ref=e2043]: "1"
+                  - button "Увеличить количество" [ref=e2044] [cursor=pointer]:
+                    - img [ref=e2045]
+                - button "Добавить в корзину" [ref=e2046] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2047] [cursor=pointer]:
+                - /url: /product/a5e-0100-050-0400-0800
+                - text: Открыть товар
+                - img [ref=e2048]
+          - generic [ref=e2051]:
+            - link "A5E 0100 050 0400 0400 Добавить в избранное Добавить в сравнение" [ref=e2052] [cursor=pointer]:
+              - /url: /product/a5e-0100-050-0400-0400
+              - generic [ref=e2053]:
+                - img "A5E 0100 050 0400 0400" [ref=e2054]
+                - generic [ref=e2055]:
+                  - button "Добавить в избранное" [ref=e2056]:
+                    - img [ref=e2057]
+                  - button "Добавить в сравнение" [ref=e2059]:
+                    - img [ref=e2060]
+            - generic [ref=e2062]:
+              - link "A5E 0100 050 0400 0400" [ref=e2063] [cursor=pointer]:
+                - /url: /product/a5e-0100-050-0400-0400
+                - heading "A5E 0100 050 0400 0400" [level=3] [ref=e2064]
+              - generic [ref=e2065]: "Артикул: A5E 0100 050 0400 0400"
+              - generic [ref=e2067]:
+                - generic [ref=e2068]: Цена по запросу
+                - generic [ref=e2069]:
+                  - img [ref=e2070]
+                  - generic [ref=e2073]: Под заказ
+              - generic [ref=e2074]:
+                - generic [ref=e2075]:
+                  - button "Уменьшить количество" [ref=e2076] [cursor=pointer]:
+                    - img [ref=e2077]
+                  - generic [ref=e2078]: "1"
+                  - button "Увеличить количество" [ref=e2079] [cursor=pointer]:
+                    - img [ref=e2080]
+                - button "Добавить в корзину" [ref=e2081] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2082] [cursor=pointer]:
+                - /url: /product/a5e-0100-050-0400-0400
+                - text: Открыть товар
+                - img [ref=e2083]
+          - generic [ref=e2086]:
+            - link "G71 0620 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 6,2 мм, серия G71 AL SE Stan Добавить в избранное Добавить в сравнение" [ref=e2087] [cursor=pointer]:
+              - /url: /product/g71-0620-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-6-2-mm-seriya-g71-al-se-s
+              - generic [ref=e2088]:
+                - img "G71 0620 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 6,2 мм, серия G71 AL SE Stan" [ref=e2089]
+                - generic [ref=e2090]:
+                  - button "Добавить в избранное" [ref=e2091]:
+                    - img [ref=e2092]
+                  - button "Добавить в сравнение" [ref=e2094]:
+                    - img [ref=e2095]
+            - generic [ref=e2097]:
+              - link "G71 0620 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 6,2 мм, серия G71 AL SE Stan" [ref=e2098] [cursor=pointer]:
+                - /url: /product/g71-0620-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-6-2-mm-seriya-g71-al-se-s
+                - heading "G71 0620 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 6,2 мм, серия G71 AL SE Stan" [level=3] [ref=e2099]
+              - generic [ref=e2100]: "Артикул: G71 0620 075"
+              - generic [ref=e2102]:
+                - generic [ref=e2103]: 6 455,61 ₽
+                - generic [ref=e2104]:
+                  - img [ref=e2105]
+                  - generic [ref=e2108]: Под заказ
+              - generic [ref=e2109]:
+                - generic [ref=e2110]:
+                  - button "Уменьшить количество" [ref=e2111] [cursor=pointer]:
+                    - img [ref=e2112]
+                  - generic [ref=e2113]: "1"
+                  - button "Увеличить количество" [ref=e2114] [cursor=pointer]:
+                    - img [ref=e2115]
+                - button "Добавить в корзину" [ref=e2116] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2117] [cursor=pointer]:
+                - /url: /product/g71-0620-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-6-2-mm-seriya-g71-al-se-s
+                - text: Открыть товар
+                - img [ref=e2118]
+          - generic [ref=e2121]:
+            - link "G71 0520 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 5,2 мм, серия G71 AL SE Stan Добавить в избранное Добавить в сравнение" [ref=e2122] [cursor=pointer]:
+              - /url: /product/g71-0520-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-5-2-mm-seriya-g71-al-se-s
+              - generic [ref=e2123]:
+                - img "G71 0520 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 5,2 мм, серия G71 AL SE Stan" [ref=e2124]
+                - generic [ref=e2125]:
+                  - button "Добавить в избранное" [ref=e2126]:
+                    - img [ref=e2127]
+                  - button "Добавить в сравнение" [ref=e2129]:
+                    - img [ref=e2130]
+            - generic [ref=e2132]:
+              - link "G71 0520 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 5,2 мм, серия G71 AL SE Stan" [ref=e2133] [cursor=pointer]:
+                - /url: /product/g71-0520-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-5-2-mm-seriya-g71-al-se-s
+                - heading "G71 0520 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 5,2 мм, серия G71 AL SE Stan" [level=3] [ref=e2134]
+              - generic [ref=e2135]: "Артикул: G71 0520 075"
+              - generic [ref=e2137]:
+                - generic [ref=e2138]: 5 791,91 ₽
+                - generic [ref=e2139]:
+                  - img [ref=e2140]
+                  - generic [ref=e2143]: Под заказ
+              - generic [ref=e2144]:
+                - generic [ref=e2145]:
+                  - button "Уменьшить количество" [ref=e2146] [cursor=pointer]:
+                    - img [ref=e2147]
+                  - generic [ref=e2148]: "1"
+                  - button "Увеличить количество" [ref=e2149] [cursor=pointer]:
+                    - img [ref=e2150]
+                - button "Добавить в корзину" [ref=e2151] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2152] [cursor=pointer]:
+                - /url: /product/g71-0520-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-5-2-mm-seriya-g71-al-se-s
+                - text: Открыть товар
+                - img [ref=e2153]
+          - generic [ref=e2156]:
+            - link "G71 0420 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 4,2 мм, серия G71 AL SE Stan Добавить в избранное Добавить в сравнение" [ref=e2157] [cursor=pointer]:
+              - /url: /product/g71-0420-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-4-2-mm-seriya-g71-al-se-s
+              - generic [ref=e2158]:
+                - img "G71 0420 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 4,2 мм, серия G71 AL SE Stan" [ref=e2159]
+                - generic [ref=e2160]:
+                  - button "Добавить в избранное" [ref=e2161]:
+                    - img [ref=e2162]
+                  - button "Добавить в сравнение" [ref=e2164]:
+                    - img [ref=e2165]
+            - generic [ref=e2167]:
+              - link "G71 0420 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 4,2 мм, серия G71 AL SE Stan" [ref=e2168] [cursor=pointer]:
+                - /url: /product/g71-0420-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-4-2-mm-seriya-g71-al-se-s
+                - heading "G71 0420 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 4,2 мм, серия G71 AL SE Stan" [level=3] [ref=e2169]
+              - generic [ref=e2170]: "Артикул: G71 0420 075"
+              - generic [ref=e2172]:
+                - generic [ref=e2173]: 4 835,83 ₽
+                - generic [ref=e2174]:
+                  - img [ref=e2175]
+                  - generic [ref=e2178]: Под заказ
+              - generic [ref=e2179]:
+                - generic [ref=e2180]:
+                  - button "Уменьшить количество" [ref=e2181] [cursor=pointer]:
+                    - img [ref=e2182]
+                  - generic [ref=e2183]: "1"
+                  - button "Увеличить количество" [ref=e2184] [cursor=pointer]:
+                    - img [ref=e2185]
+                - button "Добавить в корзину" [ref=e2186] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2187] [cursor=pointer]:
+                - /url: /product/g71-0420-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-4-2-mm-seriya-g71-al-se-s
+                - text: Открыть товар
+                - img [ref=e2188]
+          - generic [ref=e2191]:
+            - link "G71 0320 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 3,2 мм, серия G71 AL SE Stan Добавить в избранное Добавить в сравнение" [ref=e2192] [cursor=pointer]:
+              - /url: /product/g71-0320-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-3-2-mm-seriya-g71-al-se-s
+              - generic [ref=e2193]:
+                - img "G71 0320 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 3,2 мм, серия G71 AL SE Stan" [ref=e2194]
+                - generic [ref=e2195]:
+                  - button "Добавить в избранное" [ref=e2196]:
+                    - img [ref=e2197]
+                  - button "Добавить в сравнение" [ref=e2199]:
+                    - img [ref=e2200]
+            - generic [ref=e2202]:
+              - link "G71 0320 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 3,2 мм, серия G71 AL SE Stan" [ref=e2203] [cursor=pointer]:
+                - /url: /product/g71-0320-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-3-2-mm-seriya-g71-al-se-s
+                - heading "G71 0320 075, Фреза твердосплавная цилиндрическая с обнижением, диаметр 3,2 мм, серия G71 AL SE Stan" [level=3] [ref=e2204]
+              - generic [ref=e2205]: "Артикул: G71 0320 075"
+              - generic [ref=e2207]:
+                - generic [ref=e2208]: 3 167,17 ₽
+                - generic [ref=e2209]:
+                  - img [ref=e2210]
+                  - generic [ref=e2213]: Под заказ
+              - generic [ref=e2214]:
+                - generic [ref=e2215]:
+                  - button "Уменьшить количество" [ref=e2216] [cursor=pointer]:
+                    - img [ref=e2217]
+                  - generic [ref=e2218]: "1"
+                  - button "Увеличить количество" [ref=e2219] [cursor=pointer]:
+                    - img [ref=e2220]
+                - button "Добавить в корзину" [ref=e2221] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2222] [cursor=pointer]:
+                - /url: /product/g71-0320-075-freza-tverdosplavnaya-tsilindricheskaya-s-obnizheniem-diametr-3-2-mm-seriya-g71-al-se-s
+                - text: Открыть товар
+                - img [ref=e2223]
+          - generic [ref=e2226]:
+            - link "C31 2000, Фреза твердосплавная цилиндрическая, диаметр 20 мм, серия C31 NiTiCo 30 STD, сплав MG, пок Добавить в избранное Добавить в сравнение" [ref=e2227] [cursor=pointer]:
+              - /url: /product/c31-2000-freza-tverdosplavnaya-tsilindricheskaya-diametr-20-mm-seriya-c31-nitico-30-std-splav-mg-pok
+              - generic [ref=e2228]:
+                - img "C31 2000, Фреза твердосплавная цилиндрическая, диаметр 20 мм, серия C31 NiTiCo 30 STD, сплав MG, пок" [ref=e2229]
+                - generic [ref=e2230]:
+                  - button "Добавить в избранное" [ref=e2231]:
+                    - img [ref=e2232]
+                  - button "Добавить в сравнение" [ref=e2234]:
+                    - img [ref=e2235]
+            - generic [ref=e2237]:
+              - link "C31 2000, Фреза твердосплавная цилиндрическая, диаметр 20 мм, серия C31 NiTiCo 30 STD, сплав MG, пок" [ref=e2238] [cursor=pointer]:
+                - /url: /product/c31-2000-freza-tverdosplavnaya-tsilindricheskaya-diametr-20-mm-seriya-c31-nitico-30-std-splav-mg-pok
+                - heading "C31 2000, Фреза твердосплавная цилиндрическая, диаметр 20 мм, серия C31 NiTiCo 30 STD, сплав MG, пок" [level=3] [ref=e2239]
+              - generic [ref=e2240]: "Артикул: C31 2000"
+              - generic [ref=e2242]:
+                - generic [ref=e2243]: 37 476,78 ₽
+                - generic [ref=e2244]:
+                  - img [ref=e2245]
+                  - generic [ref=e2248]: Под заказ
+              - generic [ref=e2249]:
+                - generic [ref=e2250]:
+                  - button "Уменьшить количество" [ref=e2251] [cursor=pointer]:
+                    - img [ref=e2252]
+                  - generic [ref=e2253]: "1"
+                  - button "Увеличить количество" [ref=e2254] [cursor=pointer]:
+                    - img [ref=e2255]
+                - button "Добавить в корзину" [ref=e2256] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2257] [cursor=pointer]:
+                - /url: /product/c31-2000-freza-tverdosplavnaya-tsilindricheskaya-diametr-20-mm-seriya-c31-nitico-30-std-splav-mg-pok
+                - text: Открыть товар
+                - img [ref=e2258]
+          - generic [ref=e2261]:
+            - link "C31 1800, Фреза твердосплавная цилиндрическая, диаметр 18 мм, серия C31 NiTiCo 30 STD, сплав MG, пок Добавить в избранное Добавить в сравнение" [ref=e2262] [cursor=pointer]:
+              - /url: /product/c31-1800-freza-tverdosplavnaya-tsilindricheskaya-diametr-18-mm-seriya-c31-nitico-30-std-splav-mg-pok
+              - generic [ref=e2263]:
+                - img "C31 1800, Фреза твердосплавная цилиндрическая, диаметр 18 мм, серия C31 NiTiCo 30 STD, сплав MG, пок" [ref=e2264]
+                - generic [ref=e2265]:
+                  - button "Добавить в избранное" [ref=e2266]:
+                    - img [ref=e2267]
+                  - button "Добавить в сравнение" [ref=e2269]:
+                    - img [ref=e2270]
+            - generic [ref=e2272]:
+              - link "C31 1800, Фреза твердосплавная цилиндрическая, диаметр 18 мм, серия C31 NiTiCo 30 STD, сплав MG, пок" [ref=e2273] [cursor=pointer]:
+                - /url: /product/c31-1800-freza-tverdosplavnaya-tsilindricheskaya-diametr-18-mm-seriya-c31-nitico-30-std-splav-mg-pok
+                - heading "C31 1800, Фреза твердосплавная цилиндрическая, диаметр 18 мм, серия C31 NiTiCo 30 STD, сплав MG, пок" [level=3] [ref=e2274]
+              - generic [ref=e2275]: "Артикул: C31 1800"
+              - generic [ref=e2277]:
+                - generic [ref=e2278]: 31 886,99 ₽
+                - generic [ref=e2279]:
+                  - img [ref=e2280]
+                  - generic [ref=e2283]: Под заказ
+              - generic [ref=e2284]:
+                - generic [ref=e2285]:
+                  - button "Уменьшить количество" [ref=e2286] [cursor=pointer]:
+                    - img [ref=e2287]
+                  - generic [ref=e2288]: "1"
+                  - button "Увеличить количество" [ref=e2289] [cursor=pointer]:
+                    - img [ref=e2290]
+                - button "Добавить в корзину" [ref=e2291] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - img
+                      - generic: В корзине
+              - link "Открыть товар" [ref=e2292] [cursor=pointer]:
+                - /url: /product/c31-1800-freza-tverdosplavnaya-tsilindricheskaya-diametr-18-mm-seriya-c31-nitico-30-std-splav-mg-pok
+                - text: Открыть товар
+                - img [ref=e2293]
+        - generic [ref=e2295]:
+          - button "Показать еще" [ref=e2296] [cursor=pointer]
+          - generic [ref=e2297]: Показано 24 из 3582
+    - generic [ref=e1021]:
+      - generic [ref=e1022]:
+        - generic [ref=e1023]:
+          - heading "Информация" [level=3] [ref=e1024]
+          - list [ref=e1025]:
+            - listitem [ref=e1026]:
+              - link "Помощь" [ref=e1027] [cursor=pointer]:
+                - /url: /help
+            - listitem [ref=e1028]:
+              - link "Условия оплаты" [ref=e1029] [cursor=pointer]:
+                - /url: /payment
+            - listitem [ref=e1030]:
+              - link "Условия доставки" [ref=e1031] [cursor=pointer]:
+                - /url: /delivery
+            - listitem [ref=e1032]:
+              - link "Гарантия на товар" [ref=e1033] [cursor=pointer]:
+                - /url: /warranty
+            - listitem [ref=e1034]:
+              - link "Политика использования файлов cookie" [ref=e1035] [cursor=pointer]:
+                - /url: /cookies
+            - listitem [ref=e1036]:
+              - link "Политика конфиденциальности" [ref=e1037] [cursor=pointer]:
+                - /url: /privacy
+        - generic [ref=e1038]:
+          - heading "Компания" [level=3] [ref=e1039]
+          - list [ref=e1040]:
+            - listitem [ref=e1041]:
+              - link "О компании" [ref=e1042] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e1043]:
+              - link "Услуги" [ref=e1044] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e1045]:
+              - link "Отраслевые решения" [ref=e1046] [cursor=pointer]:
+                - /url: /solutions
+            - listitem [ref=e1047]:
+              - link "Бренды" [ref=e1048] [cursor=pointer]:
+                - /url: /brands
+            - listitem [ref=e1049]:
+              - link "Блог" [ref=e1050] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e1051]:
+              - link "Реквизиты" [ref=e1052] [cursor=pointer]:
+                - /url: /requisites
+            - listitem [ref=e1053]:
+              - link "Лицензии и сертификаты" [ref=e1054] [cursor=pointer]:
+                - /url: /licenses-certificates
+            - listitem [ref=e1055]:
+              - link "Контакты" [ref=e1056] [cursor=pointer]:
+                - /url: /contacts
+        - generic [ref=e1057]:
+          - heading "Адреса филиалов и представительств" [level=3] [ref=e1059]
+          - generic [ref=e1060]:
+            - generic [ref=e1061]:
+              - generic [ref=e1062]:
+                - generic [ref=e1063]: Центральный офис, г. Санкт-Петербург, ул. Заусадебная, д. 15, строение 5
+                - generic [ref=e1064]: +7 (812) 640-39-96
+              - generic [ref=e1065]:
+                - generic [ref=e1066]: Екатеринбург, ул. Академика Вонсовского, д. 1-А
+                - generic [ref=e1067]: +7 (812) 640-39-96
+              - generic [ref=e1068]:
+                - generic [ref=e1069]: Казань, ул. Михаила Миля, д. 33-А
+                - generic [ref=e1070]: +7 (843) 2-111-900
+                - generic [ref=e1071]: +7 (929) 118-43-40
+              - generic [ref=e1072]:
+                - generic [ref=e1073]: Краснодар, ул. Шевченко, 152/2
+                - generic [ref=e1074]: +7 (911) 194-67-47
+            - iframe [ref=e1076]:
+              - generic [ref=f21e2]:
+                - generic:
+                  - generic:
+                    - generic [ref=f21e6]:
+                      - generic:
+                        - generic:
+                          - generic [ref=f21e7] [cursor=pointer]:
+                            - img [ref=f21e8]
+                            - img [ref=f21e14]
+                          - generic [ref=f21e16] [cursor=pointer]:
+                            - img [ref=f21e17]
+                            - img [ref=f21e23]
+                          - generic [ref=f21e25] [cursor=pointer]:
+                            - img [ref=f21e26]
+                            - img [ref=f21e32]
+                          - generic [ref=f21e34] [cursor=pointer]:
+                            - img [ref=f21e35]
+                            - img [ref=f21e41]
+                            - generic [ref=f21e43]: Центральный офис
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [ref=f21e44]:
+                            - generic [ref=f21e45]:
+                              - button [ref=f21e48] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                              - button "Пробки" [ref=f21e50] [cursor=pointer]:
+                                - generic [ref=f21e51]:
+                                  - generic:
+                                    - img
+                                - generic [ref=f21e53]: Пробки
+                            - iframe [ref=f21e54]:
+                              
+                          - generic [ref=f21e55]:
+                            - generic [ref=f21e58]:
+                              - button "Приблизить" [ref=f21e60] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                              - button "Отдалить" [ref=f21e62] [cursor=pointer]:
+                                - generic:
+                                  - generic:
+                                    - img
+                            - iframe [ref=f21e63]:
+                              
+                          - generic [ref=f21e64]:
+                            - button "Моё местоположение" [ref=f21e67] [cursor=pointer]:
+                              - generic:
+                                - generic:
+                                  - img
+                            - iframe [ref=f21e68]:
+                              
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Открыть в Яндекс Картах":
+                                  - generic:
+                                    - generic:
+                                      - img
+                                  - generic: Открыть в Яндекс Картах
+                            - iframe [ref=f21e69]:
+                              
+                          - generic:
+                            - generic:
+                              - generic:
+                                - button "Открыть в Картах":
+                                  - generic:
+                                    - generic:
+                                      - img
+                                  - generic: Открыть в Картах
+                            - iframe [ref=f21e70]:
+                              
+                          - generic [ref=f21e71]:
+                            - button [ref=f21e74] [cursor=pointer]:
+                              - generic:
+                                - generic:
+                                  - img
+                            - iframe [ref=f21e75]:
+                              
+                        - generic:
+                          - generic:
+                            - contentinfo:
+                              - generic [ref=f21e77]:
+                                - generic [ref=f21e83]: © Яндекс
+                                - link "Условия использования" [ref=f21e78] [cursor=pointer]:
+                                  - /url: https://yandex.ru/legal/maps_termsofuse/?lang=ru
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 400 км
+                        - iframe [ref=f21e79]:
+                          
+                    - iframe [ref=f21e80]:
+                      
+      - generic [ref=e1078]:
+        - generic [ref=e1079]:
+          - generic [ref=e1080]: Адрес
+          - generic [ref=e1081]:
+            - text: г. Санкт-Петербург,
+            - text: ул. Заусадебная, д. 15,
+            - text: стр. 5
+        - generic [ref=e1082]:
+          - generic [ref=e1083]: График работы
+          - generic [ref=e1084]:
+            - text: "Пн–Пт: 9:00–18:00"
+            - text: "Сб–Вс: выходной"
+        - generic [ref=e1085]:
+          - generic [ref=e1086]: Контакты
+          - generic [ref=e1087]:
+            - link "+7 (812) 640-39-96" [ref=e1088] [cursor=pointer]:
+              - /url: tel:+78126403996
+              - img [ref=e1089]
+              - generic [ref=e1091]: +7 (812) 640-39-96
+            - link "info@cnc.su" [ref=e1092] [cursor=pointer]:
+              - /url: mailto:info@cnc.su
+              - img [ref=e1093]
+              - generic [ref=e1096]: info@cnc.su
+        - generic [ref=e1097]:
+          - generic [ref=e1098]: Мессенджеры
+          - generic [ref=e1099]:
+            - link "Telegram" [ref=e1100] [cursor=pointer]:
+              - /url: https://t.me/
+              - img [ref=e1101]
+            - link "WhatsApp" [ref=e1104] [cursor=pointer]:
+              - /url: https://wa.me/78126403996
+              - img [ref=e1105]
+            - link "Email" [ref=e1107] [cursor=pointer]:
+              - /url: mailto:info@cnc.su
+              - img [ref=e1108]
+      - generic [ref=e1112]:
+        - paragraph [ref=e1113]: © 2026 ООО «АВТОграф Инструментальные Решения»
+        - paragraph [ref=e1114]: Информация на данном интернет-сайте носит исключительно ознакомительный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ. Поставщик оставляет за собой право без предварительного уведомления вносить изменения в стоимость, конструкцию и комплектацию изделий.
+  - generic [ref=e499]:
+    - button "Menu" [ref=e500]:
+      - img [ref=e502]
+      - generic: Menu
+    - button "Inspect" [ref=e506]:
+      - img [ref=e508]
+      - generic: Inspect
+    - button "Audit" [ref=e510]:
+      - generic [ref=e511]:
+        - img [ref=e512]
+        - img [ref=e2305]
+      - generic: Audit
+    - button "Settings" [ref=e518]:
+      - img [ref=e520]
+      - generic: Settings

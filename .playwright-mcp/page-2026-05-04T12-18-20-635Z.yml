@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - link "Перейти к содержимому" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e6]:
+    - button "Menu" [ref=e7]:
+      - img [ref=e9]
+      - generic: Menu
+    - button "Inspect" [ref=e13]:
+      - img [ref=e15]
+      - generic: Inspect
+    - button "Audit" [ref=e17]:
+      - img [ref=e19]
+      - generic: Audit
+    - button "Settings" [ref=e22]:
+      - img [ref=e24]
+      - generic: Settings

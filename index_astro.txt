@@ -1,0 +1,18 @@
+---
+import { Head } from '@/components/Head';
+import AppRouter from '@/components/Router';
+import '@/styles/global.css';
+---
+
+<html lang="ru" class="w-full h-full">
+  <head>
+    <Head />
+    <title>АВТОграф Инструментальные Решения</title>
+    <meta name="description" content="Комплексные поставки металлорежущего инструмента, станочной оснастки, СОЖ, измерительного инструмента и инженерных услуг для производственных предприятий." />
+  </head>
+  <body class="w-full h-full">
+    <div id="root" class="w-full h-full">
+      <AppRouter client:only="react" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+- link "Перейти к содержимому" [ref=e2] [cursor=pointer]:
+  - /url: "#main"
