@@ -49,3 +49,62 @@ src.zip
 .venv/
 dist/
 node_modules/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+bin/
+obj/
+
+# Runtime data
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Credentials
+credentials.json
+secrets.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.ppk
+
+# Logs / cache
+*.log
+.cache/
+temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local snapshots
+.deploy-snapshot/
